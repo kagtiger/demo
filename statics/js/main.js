@@ -28,13 +28,22 @@ function top_main_web(){
 }
 
 function borderRadius(element){
+  var list_element = document.querySelectorAll(element);
   var rec_element = document.querySelector(element).getBoundingClientRect();
-  if(rec_element.height < rec_element.width){
-    document.querySelector(element).style.borderRadius=rec_element.height/20+"px";
-  }
-  else{
-    document.querySelector(element).style.borderRadius=rec_element.width/20+"px";
-  }
+  
+    
+    if(rec_element.height < rec_element.width){
+      for(var i=0;i<list_element.length;i++){
+        list_element[i].style.borderRadius=rec_element.height/20+"px";
+      }
+    }
+    else{
+      for(var i=0;i<list_element.length;i++){
+        list_element[i].style.borderRadius=rec_element.width/20+"px";
+      }
+      
+    }
+  
 }
 
 function elementBorder(element){

@@ -456,9 +456,42 @@ h3 {
     width: 100%;
     /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+.doi_tac_sub{
+    position: relative;
+    width: 30%;
+    height: auto;
+    margin-left: calc(( 100% - 3 * 30% ) / 6);
+    margin-right: calc(( 100% - 3 * 30% ) / 6);
+    margin-top: 30px;
+ 
+    
+}
+.doi_tac_sub:hover{
+    transform:translateY(-20px);
+    box-shadow: rgb(38, 57, 77) 0px 25px 30px -10px;
+    transition-duration: 0.15s;
+    outline: none;
+}
+.doi_tac_sub_img{
+   left:25%;
+   top:25px;
+   position: relative;
+   width: 50%;
+   padding-top: 50%; 
 
 }
+.doi_tac_img{
+    display:block;
+    top:0px;
+    left:0px;
 
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
 .lien_he_x{
     position: relative;
     top: calc(7 * var(--khoang_cach_giua_cac_section));
