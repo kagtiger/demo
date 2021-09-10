@@ -81,4 +81,7 @@
         left: 50%! important;
 
     }
+    .doi_tac{
+        height:calc( var(--height_section_ve_chung_toi) *0.4 ) !important;
+    }
 }
