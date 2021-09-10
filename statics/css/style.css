@@ -74,7 +74,9 @@ h3 {
     background-color: white;
     color: #000;
 }
-
+#icon_menu{
+    display:none;
+}
 
 .hero{
     position: absolute;
