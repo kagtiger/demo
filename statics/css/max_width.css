@@ -1,0 +1,84 @@
+@media screen and (max-width: 1280px) {
+    .menu li{
+        padding-right: calc( var(--khoang_cach_element_menu) * 0.8) !important;
+    }
+    .menu a{
+        font-size: calc( var(--size_chu_menu) *0.8 ) !important; 
+    }
+    .dich_vu{
+        height: calc( var(--height_section_dich_vu) * 0.75)!important;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header {
+        height: 60px !important;
+    }
+    .menu{
+        display:none;
+    }
+    #icon_menu{
+        top: 15%;
+        position: relative;
+        height: 70%;
+        float: right;
+        right: 20px;
+        
+    }
+    .dich_vu{
+        height: calc(6 * (var(--height_section_dich_vu) * 0.75))!important;
+        flex-direction: column;
+    }
+    .dich_vu_sub{
+        position: relative !important;
+        height: calc(var(--height_section_dich_vu) * 0.75)!important; 
+        width: 60% !important;
+        margin-left: calc((100% - 1 * 60%) / 2)!important;
+        margin-right: calc((100% - 1 * 60%) / 2) !important;
+        margin-top: calc(var(--height_section_dich_vu) * 0.75 / 10) ;
+        margin-bottom: calc(var(--height_section_dich_vu) * 0.75 / 10) ;
+        display: flex;
+        flex-direction: column !important;
+        top:20px !important;
+
+    }
+    .dich_vu_img{
+        position: absolute;
+        display: block;
+        margin-left: 10%!important;
+        margin-right: 10%!important;
+        width: 80% ! important;
+        border-radius: 12px;
+    
+    }
+    .san_pham_menu_btn{
+        position: relative;
+        width: 25%;
+        font-size: 0.5em;
+    
+    }
+    .san_pham_list{
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 50%;
+    }
+    .san_pham_list::-webkit-scrollbar{
+        display:none;
+    }
+    .sp_list_sub{
+        width: 30%! important;
+        flex-shrink: 0;
+        margin-right: calc((100% - 2 * 40%) / 4)!important;
+        margin-left: calc((100% - 2 * 40%) / 4)!important;
+        background-color: green;
+        border-radius:12px;
+        scroll-snap-align: center;
+    }
+
+    .content_para button {
+        width: 80px !important;
+        left: 50%! important;
+
+    }
+}

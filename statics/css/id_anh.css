@@ -1,0 +1,50 @@
+.logo_img{
+    content: url("../img/photos/logo.png");
+    /*mix-blend-mode:multiply;*/
+}
+.ft_logo_img{
+    content: url("../img/photos/logo.png");
+    /*mix-blend-mode:multiply;*/
+}
+#icon_menu{
+    content: url("../img/svg/menu.svg");
+}
+#slide1_img{
+    
+    content: url("../img/photos/slide1_img.png");
+}
+#slide2_img{
+    content: url("../img/photos/slide2_img.jpg");
+}
+#slide3_img{
+    
+    content: url("../img/photos/slide3_img.jpg");
+}
+#sp_content_img_1{
+
+    content: url("../img/photos/sp1.jpg");
+}
+#tin_van_img_1{
+    content: url("../img/photos/tv1.jpg");
+}
+#tin_van_img_2{
+    content: url("../img/photos/tv2.jpg");
+}
+#tin_van_img_3{
+    content: url("../img/photos/tv3.jpg");
+}
+#dich_vu_img_1{
+    content: url("../img/photos/dv1.jpg");
+}
+#dich_vu_img_2{
+    content: url("../img/photos/dv2.jpg");
+}
+#dich_vu_img_3{
+    content: url("../img/photos/dv3.jpg");
+}
+#dich_vu_img_4{
+    content: url("../img/photos/dv4.jpg");
+}
+#dich_vu_img_5{
+    content: url("../img/photos/dv5.jpg");
+}
