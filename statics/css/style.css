@@ -129,7 +129,7 @@ h3 {
     left:0px;
     height:var(--height_section_ve_chung_toi);
     width: 100%;
-    /*background-color:var(--mau_chu_de_1);*/
+    background-color:var(--mau_chu_de_1);
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
     display: flex;
     flex-direction: row;
@@ -157,8 +157,45 @@ h3 {
     position: relative;
     top:5%;
     height:90%;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
     width: calc(100% - var(--ty_le_doc_menu_section_ve_chung_toi) - 5%);
+    display: flex;
+    flex-direction: column;
+}
+.ve_chung_toi_content_sub{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.content_img{
+    position: relative;
+    width: var(--ty_le_img_ve_chung_toi_content);
+}
+.content_img img{
+    position:absolute;
+    left:0px;
+    width: 100%;
+    top:50%;
+    transform:translateY(-50%);
+}
+.ve_chung_toi_content_p{
+    position: relative;
+    width: calc(100% - var(--ty_le_img_ve_chung_toi_content) );
+    margin:20px;
+    overflow-x: hidden;
+}
+.ve_chung_toi_content_p p,h3,li{
+    line-height: 1.2em;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.ve_chung_toi_content_p button{
+
+}
+.ve_chung_toi_content_p::-webkit-scrollbar{
+    display: none;
 }
 
 .dich_vu_x{
@@ -236,15 +273,26 @@ h3 {
 
 }
 .dich_vu_sub div{
-    position: absolute;
+    position: relative;
     height: 90%;
     width: 100%;
+    display:flex;
+    flex-wrap: wrap;
 }
 .dich_vu_sub div h3{
     position: relative;
     top: 90%;
     text-align: center;
 }
+
+.mid_dich_vu_san_pham{
+    position: absolute;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -10;
+    mix-blend-mode: darken;
+}
+
 .san_pham_x{
     position: relative;
     top: calc(3 * var(--khoang_cach_giua_cac_section));
@@ -262,13 +310,14 @@ h3 {
 .san_pham{
     position: relative;
     left:0px;
-    height:var(--height_section_ve_chung_toi);
+    height:var(--height_section_san_pham);
     width: 100%;
     /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
 
 }
 
+/*
 .san_pham_menu{
     height:10%;
     width: 100%;
@@ -287,8 +336,9 @@ h3 {
     color:red;
     font-weight: bold;
 }
+*/
 .san_pham_list{
-    height:20%;
+    height:100%;
     width: 100%;
     background-color: var(--mau_chu_de_1);
     display:flex;
@@ -302,7 +352,17 @@ h3 {
     margin-left: calc((100% - 5 * 15%) / 10);
     background-color: green;
     border-radius:12px;
+    display: flex;
+    flex-direction: column;
 }
+.sp_list_sub_img{
+    position: relative;
+    margin:5%;
+    width:90%;
+    height: 60%;
+    border-radius: 12px;
+}
+/*
 .san_pham_content{
     height:70%;
     position: relative;
@@ -364,7 +424,7 @@ h3 {
     height: 75%;
     overflow-y: hidden;
 }
-
+*/
 
 .tin_tuc_x{
     position: relative;
@@ -388,8 +448,33 @@ h3 {
     left:0px;
     width: 30%;
     height: calc( 100% - 30px);
-
     padding:15px;
+    display: flex;
+    flex-direction: column;
+}
+.tin_doc:hover{
+    background-color:bisque;
+    border-radius: 20px;
+}
+.tin_doc_img{
+    top:0px;
+    left:0px;
+    position: relative;
+    width: 100%;
+    height:auto;
+}
+.tin_doc_img img{
+    position: relative;
+    width: 100%;
+}
+.tin_doc_content{
+    position: relative;
+    text-align: justify;
+    left:0px;
+    overflow-x: hidden;
+}
+.tin_doc_content::-webkit-scrollbar{
+    display: none;
 }
 .tin_ngang{
     position: relative;
@@ -413,6 +498,7 @@ h3 {
 }
 .tin_van:hover{
     background-color:bisque;
+    border-radius: 20px;
 }
 
 .tin_van_img{

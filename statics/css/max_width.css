@@ -1,4 +1,7 @@
 @media screen and (max-width: 1280px) {
+    .ve_chung_toi_menu{
+        width: calc(var(--ty_le_doc_menu_section_ve_chung_toi) * 1.4)!important; 
+    }
     .menu li{
         padding-right: calc( var(--khoang_cach_element_menu) * 0.8) !important;
     }
@@ -6,7 +9,13 @@
         font-size: calc( var(--size_chu_menu) *0.8 ) !important; 
     }
     .dich_vu{
-        height: calc( var(--height_section_dich_vu) * 0.75)!important;
+        height: auto!important;
+    }
+    
+    .dich_vu_sub div h3{
+
+        top: 70%! important;
+
     }
 }
 
