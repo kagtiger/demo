@@ -224,14 +224,14 @@ h3 {
 }
 .dich_vu_sub{
     position: relative;
-    height: var(--height_dich_vu_sub);
+    height: auto;
     width: 15%;
     margin-left: calc((100% - 5 * 15%) / 10);
     margin-right: calc((100% - 5 * 15%) / 10);
     display: flex;
     flex-direction: column;
     top:calc(100% - var(--height_dich_vu_sub) - 30px);
-    background-color: aqua;
+    background-color: rgba(35, 173, 173, 0.514);
     border-radius: 20px;
     box-shadow: rgb(38, 57, 77) 0px 8px 8px -4px;
     cursor: pointer;
@@ -278,17 +278,18 @@ h3 {
     width: 100%;
     display:flex;
     flex-wrap: wrap;
+    color: white;
 }
 .dich_vu_sub div h3{
     position: relative;
-    top: 90%;
+    top: 80%;
     text-align: center;
 }
 
 .mid_dich_vu_san_pham{
-    position: absolute;
+    position: relative;
     width: 100%;
-    opacity: 0.4;
+    
     z-index: -10;
     mix-blend-mode: darken;
 }
@@ -354,7 +355,16 @@ h3 {
     border-radius:12px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
+
+.sp_list_sub:hover{
+    transform:translateY(-20px);
+    box-shadow: rgb(38, 57, 77) 0px 25px 30px -10px;
+    transition-duration: 0.15s;
+    outline: none;
+}
+
 .sp_list_sub_img{
     position: relative;
     margin:5%;
@@ -425,6 +435,46 @@ h3 {
     overflow-y: hidden;
 }
 */
+.tieu_bieu_x{
+    position: relative;
+    top: calc(5 * var(--khoang_cach_giua_cac_section));
+    left: var(--thut_le_dich_vu);
+    width: calc( 100% - var(--thut_le_dich_vu)*2 );
+    height: auto;
+}
+.tieu_bieu{
+    position: relative;
+    left:0px;
+    height:300px;
+    width: 100%;
+    /*background-color:var(--mau_chu_de_1);*/
+    /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
+    display:flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    
+}
+.tieu_bieu_sub{
+    position: relative;
+    height: 100%;
+    width: 25%;
+    flex-shrink: 0;
+    margin-right: calc((100% - 3 * 25%) / 6);
+    margin-left: calc((100% - 3 * 25%) / 6);
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 50%;
+}
+.tieu_bieu_sub_img{
+    position: relative;
+    height:75%;
+}
+.tieu_bieu_sub_img img{
+    position: relative;
+    width: 100%;
+}
+
+
 
 .tin_tuc_x{
     position: relative;
@@ -441,6 +491,7 @@ h3 {
     /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
     display:flex;
+    
 }
 .tin_doc{
     position: relative;
@@ -451,6 +502,7 @@ h3 {
     padding:15px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 .tin_doc:hover{
     background-color:bisque;
@@ -494,7 +546,7 @@ h3 {
     padding:calc( (100% - 3 * 25%)/ 6);
     width: 100%;
     display: flex;
-    
+    cursor: pointer;
 }
 .tin_van:hover{
     background-color:bisque;
@@ -513,6 +565,7 @@ h3 {
     left:35%;
     width: 65%;
     overflow-x: hidden;
+    
 }
 .tin_van_para::-webkit-scrollbar{
     display: none;
@@ -547,12 +600,12 @@ h3 {
 }
 .doi_tac_sub{
     position: relative;
-    width: 30%;
+    width: 25%;
     height: auto;
-    margin-left: calc(( 100% - 3 * 30% ) / 6);
-    margin-right: calc(( 100% - 3 * 30% ) / 6);
+    margin-left: calc(( 100% - 3 * 25% ) / 6);
+    margin-right: calc(( 100% - 3 * 25% ) / 6);
     margin-top: 30px;
- 
+    cursor: pointer;
     
 }
 .doi_tac_sub:hover{
@@ -599,7 +652,7 @@ h3 {
     position:inherit;
     height: auto;
     width:100%;
-    background-color:var(--mau_chu_de_1);
+    background-color:var(--mau_footer);
     display: flex;
 }
 .ft_sub{

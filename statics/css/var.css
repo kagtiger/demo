@@ -3,6 +3,7 @@
     --mau_nen_page_1:#a3a0a08e;
     --mau_nen_header_1:rgba(75, 214, 224, 0.342);
     --mau_chu_de_1:rgba(255, 253, 253, 0.527);
+    --mau_footer:rgb(156, 111, 13);
     --height_header:80px; /* chiều cao header, chiều cao logo = 0.8* chiều cao header */
     --width_logo:80px;
     --khoang_cach_element_menu_header:30px;
@@ -23,6 +24,7 @@
     --grip_row_element_san_pham: calc(10% - var(--gap_element_san_pham)) calc(20% - var(--gap_element_san_pham)) calc(70% - var(--gap_element_san_pham));
 
     --font_section_h2:'Josefin Sans', sans-serif;
+    
 }
 
 /*--font_section_h2*/
