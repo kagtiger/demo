@@ -1,5 +1,5 @@
 :root{
-    --mau_nen_windows_1:#a6ddf3;
+    --mau_nen_windows_1:#e8f2ff;
     --mau_nen_page_1:#a3a0a08e;
     --mau_nen_header_1:rgba(75, 214, 224, 0.342);
     --mau_chu_de_1:rgba(255, 253, 253, 0.527);
@@ -13,7 +13,7 @@
     --top_web_main:80%;
     --khoang_cach_giua_cac_section:90px;
     --thut_le_section_ve_chung_toi:2%;
-    --height_section_ve_chung_toi:800px;
+    --height_section_ve_chung_toi:600px;
     --ty_le_doc_menu_section_ve_chung_toi:25%;/*tỷ lệ dọc của thẻ menu trong section về chúng tôi*/
     --ty_le_img_ve_chung_toi_content:40%;
     --height_section_dich_vu:400px;
