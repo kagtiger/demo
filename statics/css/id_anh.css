@@ -33,3 +33,9 @@
 #tin_van_img_3{
     content: url("../img/photos/tv3.jpg");
 }
+.arrow_right{
+    content: url("https://img.icons8.com/pastel-glyph/64/000000/circled-right.png");
+}
+.arrow_left{
+    content: url("https://img.icons8.com/pastel-glyph/64/000000/circled-left.png");
+}

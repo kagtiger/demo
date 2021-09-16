@@ -25,22 +25,22 @@
     </div>
     <img id="icon_menu" alt="">
 </div>
-<div class="hero">
-    <div class="slide">
+<div class="slide_ngang hero">
+    <div class="slide_sub hero_sub">
         <img id="slide1_img"  alt="" class="slide_img" loading="lazy">
         <div class="slide_content">
             <h2></h2>
             <p></p>
         </div>
     </div>
-    <div class="slide">
+    <div class="slide_sub hero_sub">
         <img id="slide2_img"  alt="" class="slide_img" loading="lazy">
         <div class="slide_content">
             <h2></h2>
             <p></p>
         </div>
     </div>
-    <div class="slide">
+    <div class="slide_sub hero_sub">
         <img id="slide3_img"  alt="" class="slide_img" loading="lazy"> 
         <div class="slide_content">
             <h2></h2>
@@ -93,6 +93,7 @@
         </div>
         </div>
     </div>
+    <div class="khoang_cach_giua_cac_section"></div>
     <div class="dich_vu_x">
         <h2 class="dich_vu_h2"><center>Dịch vụ</center></h2>
         
@@ -129,7 +130,7 @@
             </div>
         </div>
     </div>
-    <img src="../statics/img/photos/Presentation1/Slide1.PNG" alt="" class="mid_dich_vu_san_pham">
+    <div class="khoang_cach_giua_cac_section"></div>
     <div class="san_pham_x">
         <h2 class="san_pham_h2">
             <center>Sản phẩm của chúng tôi</center>
@@ -188,49 +189,138 @@
             </div>-->
         </div>
     </div>
+    <div class="khoang_cach_giua_cac_section"></div>
     <div class="tieu_bieu_x">
         <h3><center>Sản phẩm tiêu biểu</center></h3>
         <br><br>
         
-        <div class="tieu_bieu">
-            <div class="tieu_bieu_sub">
+        <div class=" slide_ngang tieu_bieu">
+            <div class="slide_sub tieu_bieu_sub">
                 <div class="tieu_bieu_sub_img">
                     <img src="../statics/img/photos/Presentation1/Slide10.PNG" alt="">
                 </div>
                 <div class="tieu_bieu_sub_para"></div>
             </div>
-            <div class="tieu_bieu_sub">
+            <div class="slide_sub tieu_bieu_sub">
                 <div class="tieu_bieu_sub_img">
                     <img src="../statics/img/photos/Presentation1/Slide12.PNG" alt="">
                 </div>
                 <div class="tieu_bieu_sub_para"></div>
             </div>
-            <div class="tieu_bieu_sub">
+            <div class="slide_sub tieu_bieu_sub">
                 <div class="tieu_bieu_sub_img">
                     <img src="../statics/img/photos/Presentation1/Slide14.PNG" alt="">
                 </div>
                 <div class="tieu_bieu_sub_para"></div>
             </div>
-            <div class="tieu_bieu_sub">
+            <div class="slide_sub tieu_bieu_sub">
                 <div class="tieu_bieu_sub_img">
                     <img src="../statics/img/photos/Presentation1/Slide13.PNG" alt="">
                 </div>
                 <div class="tieu_bieu_sub_para"></div>
             </div>
-            <div class="tieu_bieu_sub">
+            <div class="slide_sub tieu_bieu_sub">
                 <div class="tieu_bieu_sub_img">
                     <img src="../statics/img/photos/Presentation1/Slide15.PNG" alt="">
                 </div>
                 <div class="tieu_bieu_sub_para"></div>
             </div>
+            
         </div>
-        <div class="arrow">
-            <img onclick="slider_button([3,30,5,-1])" class="arrow_right" src="https://img.icons8.com/pastel-glyph/64/000000/circled-right.png"/>
-            <img onclick="slider_button([3,30,5,1])" class="arrow_left" src="https://img.icons8.com/pastel-glyph/64/000000/circled-left.png"/>
+        <div class="arrow" id="arrow_tieu_bieu">
+            <img onclick="slider_button([3,30,5,-1])" class="arrow_right" />
+            <img onclick="slider_button([3,30,5,1])" class="arrow_left"/>
         </div>
+        <button>Xem thêm</button>
+        
     </div>
-
-
+    <div class="khoang_cach_giua_cac_section"></div>
+    <div class="tieu_bieu_x">
+        <h3><center>Sản phẩm mới nhất</center></h3>
+        <br><br>
+        <div class=" slide_ngang moi_nhat">
+            <div class="slide_sub tieu_bieu_sub">
+                <div class="tieu_bieu_sub_img">
+                    <img src="../statics/img/photos/Presentation1/Slide10.PNG" alt="">
+                </div>
+                <div class="tieu_bieu_sub_para"></div>
+            </div>
+            <div class="slide_sub tieu_bieu_sub">
+                <div class="tieu_bieu_sub_img">
+                    <img src="../statics/img/photos/Presentation1/Slide12.PNG" alt="">
+                </div>
+                <div class="tieu_bieu_sub_para"></div>
+            </div>
+            <div class="slide_sub tieu_bieu_sub">
+                <div class="tieu_bieu_sub_img">
+                    <img src="../statics/img/photos/Presentation1/Slide14.PNG" alt="">
+                </div>
+                <div class="tieu_bieu_sub_para"></div>
+            </div>
+            <div class="slide_sub tieu_bieu_sub">
+                <div class="tieu_bieu_sub_img">
+                    <img src="../statics/img/photos/Presentation1/Slide13.PNG" alt="">
+                </div>
+                <div class="tieu_bieu_sub_para"></div>
+            </div>
+            <div class="slide_sub tieu_bieu_sub">
+                <div class="tieu_bieu_sub_img">
+                    <img src="../statics/img/photos/Presentation1/Slide15.PNG" alt="">
+                </div>
+                <div class="tieu_bieu_sub_para"></div>
+            </div>
+            
+        </div>
+        <div class="arrow" id="arrow_moi_nhat">
+            <img onclick="slider_button([3,30,5,-1])" class="arrow_right" />
+            <img onclick="slider_button([3,30,5,1])" class="arrow_left"/>
+        </div>
+        <button>Xem thêm</button>
+    </div>
+    <div class="khoang_cach_giua_cac_section"></div>
+    <div class="tieu_bieu_x">
+        <h3><center>Xe chuyên dùng</center></h3>
+        <br><br>
+        <div class=" slide_ngang chuyen_dung">
+            <div class="slide_sub tieu_bieu_sub">
+                <div class="tieu_bieu_sub_img">
+                    <img src="../statics/img/photos/Presentation1/Slide10.PNG" alt="">
+                </div>
+                <div class="tieu_bieu_sub_para"></div>
+            </div>
+            <div class="slide_sub tieu_bieu_sub">
+                <div class="tieu_bieu_sub_img">
+                    <img src="../statics/img/photos/Presentation1/Slide12.PNG" alt="">
+                </div>
+                <div class="tieu_bieu_sub_para"></div>
+            </div>
+            <div class="slide_sub tieu_bieu_sub">
+                <div class="tieu_bieu_sub_img">
+                    <img src="../statics/img/photos/Presentation1/Slide14.PNG" alt="">
+                </div>
+                <div class="tieu_bieu_sub_para"></div>
+            </div>
+            <div class="slide_sub tieu_bieu_sub">
+                <div class="tieu_bieu_sub_img">
+                    <img src="../statics/img/photos/Presentation1/Slide13.PNG" alt="">
+                </div>
+                <div class="tieu_bieu_sub_para"></div>
+            </div>
+            <div class="slide_sub tieu_bieu_sub">
+                <div class="tieu_bieu_sub_img">
+                    <img src="../statics/img/photos/Presentation1/Slide15.PNG" alt="">
+                </div>
+                <div class="tieu_bieu_sub_para"></div>
+            </div>
+            
+        </div>
+        <div class="arrow" id="arrow_chuyen_dung">
+            <img onclick="slider_button([3,30,5,-1])" class="arrow_right" />
+            <img onclick="slider_button([3,30,5,1])" class="arrow_left"/>
+        </div>
+        <button>Xem thêm</button>
+    </div>
+    <div class="khoang_cach_giua_cac_section"></div>
     <div class="tin_tuc_x">
         <h2 class="tin_tuc_h2">
             <center>Tin tức</center>
@@ -276,6 +366,7 @@
             <div class="tin_doc"></div>
         </div>
     </div>
+    <div class="khoang_cach_giua_cac_section"></div>
     <div class="doi_tac_x">
         <h2 class="doi_tac_h2">
             <center>Đối tác</center>
@@ -316,6 +407,7 @@
             </div>
         </div>
     </div>
+    <div class="khoang_cach_giua_cac_section"></div>
     <div class="lien_he_x">
         <h2 class="lien_he_h2">
             <center>Liên hệ</center>
@@ -324,7 +416,21 @@
 
         </div>
     </div>
-
+    <div class="khoang_cach_giua_cac_section"></div>
+    <div class="chung_toi_muon_x">
+        <h3><center>Chúng tôi muốn</center> </h3>
+        <div class="chung_toi_muon"></div>
+    </div>
+    <div class="khoang_cach_giua_cac_section"></div>
+    <div class="tai_sao_lua_chon_chung_toi_x">
+        <h3><center>Tại sao lựa chọn chúng tôi</center> </h3>
+        <div class="tai_sao_lua_chon_chung_toi"></div>
+    </div>
+    <div class="khoang_cach_giua_cac_section"></div>
+    <div class="danh_gia_khach_hang_x">
+        <h3><center>Đánh giá khách hàng</center> </h3>
+        <div class="danh_gia_khach_hang"></div>
+    </div>
 </div>
 <div class="footer">
     <div class="ft_sub">
@@ -388,7 +494,9 @@
     var list_ele_border =[".dich_vu",".san_pham",".tin_tuc",".doi_tac",".lien_he",".doi_tac_sub",".doi_tac_img"];
     elementBorder(list_ele_border);
     set_footer(".footer");
-    //set_footer(".mid_dich_vu_san_pham");
+    setup_slide("arrow_tieu_bieu");
+    setup_slide("arrow_moi_nhat");
+    setup_slide("arrow_chuyen_dung");
 </script>
 </body>
 </html>

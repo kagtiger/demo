@@ -1,6 +1,6 @@
 function animation(){
   var slide_hero = anime({
-    targets: '.slide',
+    targets: '.hero_sub',
     keyframes: [
 
       {translateX: 0},
@@ -57,6 +57,7 @@ function set_footer(footer){
   .getPropertyValue('--khoang_cach_giua_cac_section')) ;
   document.querySelector(footer).style.top= parseInt(document.body.scrollHeight) + khoang_cach_section + "px";
 }
+
 function slider_button(flex_view){
 
   var step = ((100 - flex_view[0]*flex_view[1])/(flex_view[0]))/flex_view[1];
@@ -90,4 +91,20 @@ function slider_button(flex_view){
 
   })
   
+}
+function setup_slide(arrow_id) {
+  var id_arrow = document.getElementById(arrow_id);
+  var arrow_child = id_arrow.children;
+  var arrow_brother= id_arrow.parentElement.children;
+
+  for(var i =0;i<arrow_brother.length;i++){
+    var class_name = arrow_brother[i].className;
+    if (class_name.search("slide_ngang")>0){
+      var class_slide = document.getElementsByClassName(class_name)[0];
+      break;
+    }
+  }
+  var rec_slide = class_slide.getBoundingClientRect();
+  id_arrow.style.height=rec_slide.height+"px";
+  id_arrow.style.top = rec_slide.top - id_arrow.parentElement.getBoundingClientRect().top +"px" ;
 }
