@@ -111,4 +111,5 @@ function setup_slide(arrow_id) {
   console.log(rec_slide.top);
   id_arrow.style.height=rec_slide.height+"px";
   id_arrow.style.top = rec_slide.top - id_arrow.parentElement.getBoundingClientRect().top +"px" ;
+  
 }

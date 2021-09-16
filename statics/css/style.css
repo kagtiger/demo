@@ -458,7 +458,7 @@ h3 {
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 300px;
+    
     z-index: 100;
     display:block;
 
@@ -507,6 +507,7 @@ h3 {
 .tieu_bieu_sub_img img{
     position: relative;
     width: 100%;
+    padding-top: 00%;
 }
 
 
@@ -675,12 +676,49 @@ h3 {
 .chung_toi_muon{
     position: relative;
     left:0px;
-    height:var(--height_section_ve_chung_toi);
     width: 100%;
+    
     /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
 
 }
+.chung_toi_muon_sub{
+    position: relative;
+    width: 15%;
+    padding-bottom: 15%;
+    margin-left: calc((100% - 4 * 15%) / 8);
+    margin-right: calc((100% - 4 * 15%) / 8);
+    border-radius: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 8px 8px -4px;
+    background-color: rgba(251, 133, 0, 1);;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.chung_toi_muon_sub_img{
+    position: relative;
+    width: 60%;
+    left:50%;
+    transform: translateX(-50%);
+    top:15px;
+}
+.chung_toi_muon_sub_img img{
+    position: relative;
+    width: 100%;
+    
+}
+.chung_toi_muon_sub_para{
+    position: relative;
+    top:40%;
+    
+}
+.chung_toi_muon_sub_para h3{
+    font-size: 1.2em;
+    text-align: center;
+}
+
 .tai_sao_lua_chon_chung_toi_x{
     position: relative;
     left: var(--thut_le_dich_vu);
@@ -694,7 +732,34 @@ h3 {
     width: 100%;
     /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
-
+    
+}
+.tai_sao_lua_chon_chung_toi img{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+.tai_sao_lua_chon_chung_toi_sub{
+    position: relative;
+    float: left;
+    width:50%;
+    height:100%;
+    background-color: rgba(240, 248, 255, 0.5);
+    display:flex;
+    flex-wrap: wrap;
+}
+.lua_chon{
+    position: relative;
+    width: 40% ;
+    height:40%;
+    background-color: cadetblue;
+    margin-top: 3%;
+    margin-left: calc((100% - 2*40%)/4);
+    margin-right: calc((100% - 2*40%)/4);
+    cursor: pointer;
+    border-radius: 8px;
 }
 .danh_gia_khach_hang_x{
     position: relative;
@@ -726,6 +791,13 @@ h3 {
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
 
 }
+
+
+
+
+
+
+
 .footer{
 
     position:inherit;
