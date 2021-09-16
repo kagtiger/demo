@@ -58,12 +58,13 @@ function set_footer(footer){
   document.querySelector(footer).style.top= parseInt(document.body.scrollHeight) + khoang_cach_section + "px";
 }
 
-function slider_button(flex_view){
-
+function slider_button(id_this,flex_view){
   var step = ((100 - flex_view[0]*flex_view[1])/(flex_view[0]))/flex_view[1];
   step = flex_view[3]*parseInt((1 + step)*100, 10) ;
-
-  var str = (document.querySelector(".tieu_bieu_sub").style.transform);
+  var class_sub_fullname = id_this.parentElement.parentElement.children[3].children[0].className;
+  var class_sub_name = class_sub_fullname.split(" ")[1];
+  class_sub_name = "." + class_sub_name;
+  var str = (document.querySelector(class_sub_name).style.transform);
   str = str.slice(11, str.length-2);
   
   if (str.length===0){
@@ -81,12 +82,12 @@ function slider_button(flex_view){
   }
   var trans = parseInt(str/step,10)*step + step + "%";
   var slide_tieu_bieu = anime({
-    targets: '.tieu_bieu_sub',
+    targets: class_sub_name,
     keyframes: [
       {translateX: trans},
     ],
-    duration: 500,
-    delay: 50,
+    duration: 300,
+    delay: 10,
     easing: 'easeInOutQuart',
 
   })

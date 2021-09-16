@@ -427,6 +427,21 @@ h3 {
     width: calc( 100% - var(--thut_le_dich_vu)*2 );
     height: auto;
 }
+.tieu_bieu_x button{
+    position: relative;
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+    top: 20px;
+    z-index: 200;
+    height: 35px;
+    width: 80px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border-style: solid 1px;
+}
 .tieu_bieu{
     position: relative;
     left:0px;
@@ -471,6 +486,20 @@ h3 {
     margin-right: calc((100% - 3 * 30%) / 6);
     margin-left: calc((100% - 3 * 30%) / 6);
 }
+.moi_nhat_sub{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    margin-right: calc((100% - 3 * 30%) / 6);
+    margin-left: calc((100% - 3 * 30%) / 6);
+}
+.chuyen_dung_sub{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    margin-right: calc((100% - 3 * 30%) / 6);
+    margin-left: calc((100% - 3 * 30%) / 6);
+}
 .tieu_bieu_sub_img{
     position: relative;
     height:75%;
@@ -479,16 +508,7 @@ h3 {
     position: relative;
     width: 100%;
 }
-.tieu_bieu button{
-    position: relative;
-    display: block;
-    margin-right:auto;
-    margin-left: auto;
-    top: 20px;
-    z-index: 200;
-    height: 35px;
-    width: 80px;
-}
+
 
 
 .tin_tuc_x{
@@ -776,6 +796,7 @@ h3 {
 .slide_ngang::scrollbar{
     display:none;
 }
+
 .slide_sub{
     flex-shrink: 0;
     scroll-behavior: smooth;
