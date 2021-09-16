@@ -79,8 +79,10 @@ function slider_button(id_this,flex_view){
   }
   if ((flex_view[3]===1)&(str===0)){ 
     return 0;
+  }else{ 
+    var trans = parseInt(str/step,10)*step + step + "%";
   }
-  var trans = parseInt(str/step,10)*step + step + "%";
+  
   var slide_tieu_bieu = anime({
     targets: class_sub_name,
     keyframes: [

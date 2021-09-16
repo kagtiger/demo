@@ -879,3 +879,13 @@ h3 {
     position: relative;
     height: var(--khoang_cach_giua_cac_section);
 }
+.anh_chu_ngang{
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background-color: rgb(51, 182, 154);
+    display: flex;
+}
+.anh_chu_ngang .anh{
+    
+}
