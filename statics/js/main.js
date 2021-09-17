@@ -74,10 +74,10 @@ function slider_button(id_this,flex_view){
     str = parseInt(str);
   }
 
-  if((flex_view[3]===-1)&(str===parseInt((flex_view[2]-flex_view[0]))*step)){
+  if((flex_view[3]===-1)&(str<=parseInt((flex_view[2]-flex_view[0]))*step)){
     return 0;
   }
-  if ((flex_view[3]===1)&(str===0)){ 
+  if ((flex_view[3]===1)&(str>-1*step)){ 
     return 0;
   }else{ 
     var trans = parseInt(str/step,10)*step + step + "%";
@@ -102,16 +102,22 @@ function setup_slide(arrow_id) {
 
   for(var i =0;i<arrow_brother.length;i++){
     var class_name = arrow_brother[i].className;
-    console.log(class_name);
+    
     if (class_name.search("slide_ngang")>0){
       //console.log(class_name);
       var class_slide = document.getElementsByClassName(class_name)[0];
       break;
     }
   }
-  var rec_slide = class_slide.getBoundingClientRect();
-  console.log(rec_slide.top);
-  id_arrow.style.height=rec_slide.height+"px";
-  id_arrow.style.top = rec_slide.top - id_arrow.parentElement.getBoundingClientRect().top +"px" ;
+  var a =class_slide.children[0].children[0].children[0];
+  if (a.complete===false){
+    console.log(a.getBoundingClientRect());
+    var rec_slide = class_slide.getBoundingClientRect();
+  
+    id_arrow.style.height=rec_slide.height+"px";
+    id_arrow.style.top = rec_slide.top - id_arrow.parentElement.getBoundingClientRect().top +"px" ;
+  }
+
+
   
 }

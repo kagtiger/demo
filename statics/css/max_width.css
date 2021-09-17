@@ -1,4 +1,7 @@
 @media screen and (max-width: 1280px) {
+    .html,body{
+        overflow-x: hidden !important;
+    }
     .ve_chung_toi_menu{
         width: calc(var(--ty_le_doc_menu_section_ve_chung_toi) * 1.4)!important; 
     }
@@ -20,6 +23,10 @@
 }
 
 @media screen and (max-width: 850px) {
+    .html,body{
+        margin: 0px !important;
+        overflow-x: hidden !important;
+    }
     .header {
         height: 60px !important;
     }
@@ -27,7 +34,7 @@
         display:none;
     }
     #icon_menu{
-        display: show;
+        display: block;
         top: 15%;
         position: relative;
         height: 70%;
