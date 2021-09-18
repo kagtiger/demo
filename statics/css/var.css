@@ -4,12 +4,13 @@
     --mau_nen_header_1:rgba(75, 214, 224, 0.342);
     --mau_chu_de_1:rgba(255, 253, 253, 0.527);
     --mau_footer:rgb(156, 111, 13);
+    --color_chu_menu:#5f1313;
     --height_header:80px; /* chiều cao header, chiều cao logo = 0.8* chiều cao header */
     --width_logo:80px;
-    --khoang_cach_element_menu_header:30px;
+    --khoang_cach_element_menu_header:20px;
     --size_chu_menu:25px;
-    --color_chu_menu:#5f1313;
-    --le_menu:5%;   /* khoảng cách từ bên phải menu đến bên phải màn hình */
+    --rong_menu:1000px;
+    --le_menu:8%;   /* khoảng cách từ bên phải menu đến bên phải màn hình */
     --top_web_main:80%;
     --khoang_cach_giua_cac_section:90px;
     --thut_le_section_ve_chung_toi:2%;
