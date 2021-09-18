@@ -2,9 +2,7 @@
     .html,body{
         overflow-x: hidden !important;
     }
-    .ve_chung_toi_menu{
-        width: calc(var(--ty_le_doc_menu_section_ve_chung_toi) * 1.4)!important; 
-    }
+  
     .menu li{
         padding-right: calc( var(--khoang_cach_element_menu) * 0.8) !important;
     }

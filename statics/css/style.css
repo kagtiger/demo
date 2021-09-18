@@ -76,9 +76,15 @@ h3 {
 #icon_menu{
     display:none;
 }
+.main{
 
-.hero{
     position: absolute;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    position: relative;
     left: 0px;
     top: 0px;
     width: 100%;
@@ -95,7 +101,7 @@ h3 {
 }
 
 .main_web{
-    position: absolute;
+    position: relative;
     top: var(--top_web_main);
     
     width: 100%;
@@ -122,35 +128,39 @@ h3 {
     background-color:var(--mau_chu_de_1);
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .ve_chung_toi_menu{
     position: relative;
-    top:5%;
-    height:100%;
+    margin-top: 3%;
+    height:var(--ty_le_ngang_menu_section_ve_chung_toi);
     left: 0px;
-    width: var(--ty_le_doc_menu_section_ve_chung_toi);
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .menu_btn{
-    padding-top: 30px;
-    padding-right: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
     
+}
+.menu_btn:hover{
+    
+    color:rgb(8, 253, 0);
 }
 .menu_btn h3{
     font-size: 25px;
-    text-align: right;
+    text-align: center;
     font-family: var(--font_section_h2);
 }
 .ve_chung_toi_content{
     position: relative;
-    top:5%;
-    height:90%;
+    margin-top: 3%;
+    height:calc(100% - var(--ty_le_ngang_menu_section_ve_chung_toi) - 5%);
     /*background-color: aliceblue;*/
-    width: calc(100% - var(--ty_le_doc_menu_section_ve_chung_toi) - 5%);
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .ve_chung_toi_content_sub{
     position: relative;
@@ -164,8 +174,9 @@ h3 {
 }
 .content_img img{
     position:absolute;
-    left:0px;
-    width: 100%;
+    left:10%;
+
+    width: 80%;
     top:50%;
     transform:translateY(-50%);
 }
@@ -178,6 +189,7 @@ h3 {
 
 
 .ve_chung_toi_content_p p,h3,li{
+    padding-left: 3%;
     line-height: 1.2em;
     text-align: justify;
     font-size: 1.5em;
@@ -798,8 +810,8 @@ h3 {
 
 
 .footer{
-
-    position:inherit;
+    
+    position:relative;
     height: auto;
     width:100%;
     background-color:var(--mau_footer);
