@@ -89,7 +89,7 @@ html, body {
     position: relative;
 
     text-align: center;
-
+    width: 140px;
     padding: 3px;
     text-decoration: none;
     font-size: var(--size_chu_menu);

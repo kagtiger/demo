@@ -1,10 +1,10 @@
 :root{
     --mau_nen_windows_1:#e8f2ff;
     --mau_nen_page_1:#a3a0a08e;
-    --mau_nen_header_1:rgba(75, 214, 224, 0.342);
+    --mau_nen_header_1:rgba(2, 48, 71, 1);
     --mau_chu_de_1:rgba(255, 253, 253, 0.527);
     --mau_footer:rgb(156, 111, 13);
-    --color_chu_menu:#5f1313;
+    --color_chu_menu:#ffffff;
     --height_header:80px; /* chiều cao header, chiều cao logo = 0.8* chiều cao header */
     --width_logo:80px;
     --khoang_cach_element_menu_header:20px;
