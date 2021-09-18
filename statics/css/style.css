@@ -251,21 +251,20 @@ html, body {
     position: relative;
     /*background-color:var(--mau_chu_de_1);*/
     height: var(--height_section_dich_vu);
-    display: flex;
     width: 100%;
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
-    
+    padding: 20px;
 }
 .dich_vu_sub{
     position: relative;
-    height: auto;
+
     width: 15%;
     margin-left: calc((100% - 5 * 15%) / 10);
     margin-right: calc((100% - 5 * 15%) / 10);
     display: flex;
     flex-direction: column;
-    top:calc(100% - var(--height_dich_vu_sub) - 30px);
-    background-color: rgba(35, 173, 173, 0.514);
+    
+    background-color: rgba(255, 255, 255, 0.514);
     border-radius: 20px;
     box-shadow: rgb(38, 57, 77) 0px 8px 8px -4px;
     cursor: pointer;
@@ -279,27 +278,10 @@ html, body {
 
 }
 
-.dich_vu_sub_btn{
-    position: relative;
-    top: calc(100% - 60px);
-    height: 40px;
-    width:90px;
-    border-radius: 12px;
-    border: none;
-    margin-right:auto;
-    margin-left: auto;
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 3px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.dich_vu_sub_btn:active{
-    transform:translateY(-3px);
-    box-shadow: rgb(38, 57, 77) 0px 15px 8px -4px;
-    transition-duration: 0.15s;
-}
+
+
 .dich_vu_img{
-    position: absolute;
+    position: relative;
     display: block;
     margin: 5%;
     width: 90%;
@@ -308,16 +290,15 @@ html, body {
 }
 .dich_vu_sub div{
     position: relative;
-    height: 90%;
     width: 100%;
     display:flex;
     flex-wrap: wrap;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .dich_vu_sub div h3{
     position: relative;
-    top: 80%;
-    text-align: center;
+    left:50%;
+    transform: translateX(-50%);
 }
 .san_pham_x{
     position: relative;
