@@ -57,15 +57,15 @@
             <h2 class="ve_chung_toi_h2"><center>Về chúng tôi</center></h2>
             <div class="ve_chung_toi">
             <div class="ve_chung_toi_menu">
-                <div class="menu_btn">
-                    <h3>Qúa trình phát triển</h3>
+                <div class="menu_btn" onclick="my_menu_btn([ve_chung_toi,0])" >
+                    <h3 >HÌNH THÀNH</h3>
                 </div>
                 
-                <div class="menu_btn">
-                    <h3>Xứ mệnh doanh nghiệp</h3>
+                <div class="menu_btn" onclick="my_menu_btn([ve_chung_toi,1])">
+                    <h3 >XỨ MỆNH</h3>
                 </div>
-                <div class="menu_btn">
-                    <h3>Định hướng phát triển</h3>
+                <div class="menu_btn" onclick="my_menu_btn([ve_chung_toi,2])">
+                    <h3 >TẦM NHÌN</h3>
                 </div>
             </div>
             <div class="ve_chung_toi_content">
@@ -91,8 +91,41 @@
                         <img src="../statics/img/photos/about_us_1.gif" alt="">
                     </div>
                 </div>
-    
-            </div>
+
+                <div class="ve_chung_toi_content_sub">
+                    
+                    <div class="ve_chung_toi_content_p">
+                        
+                        <p>CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ CƠ KHÍ GIAO THÔNG luôn tự đặt ra cho mình mục tiêu trở thành một trong những đơn vị cung cấp các sản phẩm thùng xe tải, xe chuyên dùng uy tín với chất lượng và giá thành cạnh tranh nhất được khách hàng ngày càng tin tưởng. Chúng tôi luôn tâm niệm sản phẩm đưa tới tay khách hàng là sản phẩm hoàn thiện nhất không qua trung gian, tiết kiệm mọi chi phí cho khách hàng.</p>
+                        <br>
+
+                        <br><br>
+                        <lu>
+                            <li>Cung cấp các sản phẩm ô tô tải, ô tô chuyên dùng</li>
+                            <li>Cung cấp các loại cần cẩu</li>
+                            <li>Đóng mới thùng bệ, cải tạo, sửa chữa các loại ô tô chuyên dùng, ô tô tải</li>
+                            <li>Tư vấn thiết kế các loại phương tiện GTVT</li>
+                        </lu>
+                    </div>
+                    <div class="content_img">
+                        <img src="../statics/img/photos/ve_chung_toi_2.png" alt="">
+                    </div>
+                </div>
+
+                <div  class="ve_chung_toi_content_sub">
+                    
+                    <div class="ve_chung_toi_content_p">
+                        <p>CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ CƠ KHÍ GIAO THÔNG hướng đến là nhà phân phối xe thành phẩm hàng đầu miền Bắc. Công ty sẽ phát triển thêm nhiều dịch vụ, ưu đãi cho khách hang.</p>
+                        <br>
+                        <p>Ngoài ra sẽ mở rọng them các chi nhánh trên toàn quốc, đưa những sản phẩm tốt nhất đến tay tất cả mọi người.</p>
+                        <br>
+                        <p>Chúng tôi luôn tâm niệm sản phẩm đưa tới tay khách hàng là sản phẩm hoàn thiện nhất không qua trung gian, tiết kiệm mọi chi phí cho khách hàng.</p>
+                        <br>
+                    </div>
+                    <div class="content_img">
+                        <img src="../statics/img/photos/" alt="">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="khoang_cach_giua_cac_section"></div>
@@ -192,50 +225,7 @@
             </div>
         </div>
         <div class="khoang_cach_giua_cac_section"></div>
-        <div class="tieu_bieu_x">
-            <h3><center>Sản phẩm tiêu biểu</center></h3>
-            <br><br>
-            
-            <div class=" slide_ngang tieu_bieu">
-                <div class="slide_sub tieu_bieu_sub">
-                    <div class="tieu_bieu_sub_img">
-                        <img src="../statics/img/photos/Presentation1/Slide10.PNG" alt="">
-                    </div>
-                    <div class="tieu_bieu_sub_para"></div>
-                </div>
-                <div class="slide_sub tieu_bieu_sub">
-                    <div class="tieu_bieu_sub_img">
-                        <img src="../statics/img/photos/Presentation1/Slide12.PNG" alt="">
-                    </div>
-                    <div class="tieu_bieu_sub_para"></div>
-                </div>
-                <div class="slide_sub tieu_bieu_sub">
-                    <div class="tieu_bieu_sub_img">
-                        <img src="../statics/img/photos/Presentation1/Slide14.PNG" alt="">
-                    </div>
-                    <div class="tieu_bieu_sub_para"></div>
-                </div>
-                <div class="slide_sub tieu_bieu_sub">
-                    <div class="tieu_bieu_sub_img">
-                        <img src="../statics/img/photos/Presentation1/Slide13.PNG" alt="">
-                    </div>
-                    <div class="tieu_bieu_sub_para"></div>
-                </div>
-                <div class="slide_sub tieu_bieu_sub">
-                    <div class="tieu_bieu_sub_img">
-                        <img src="../statics/img/photos/Presentation1/Slide15.PNG" alt="">
-                    </div>
-                    <div class="tieu_bieu_sub_para"></div>
-                </div>
-                
-            </div>
-            <div class="arrow" id="arrow_tieu_bieu">
-                <img onclick="slider_button(this,[3,30,5,-1])" class="arrow_right" />
-                <img onclick="slider_button(this,[3,30,5,1])" class="arrow_left"/>
-            </div>
-            <button>Xem thêm</button>
-            
-        </div>
+
         <div class="khoang_cach_giua_cac_section"></div>
         <div class="tieu_bieu_x">
             <h3><center>Sản phẩm mới nhất</center></h3>
@@ -274,8 +264,8 @@
                 
             </div>
             <div class="arrow" id="arrow_moi_nhat">
-                <img onclick="slider_button(this,[3,30,5,-1])" class="arrow_right" />
-                <img onclick="slider_button(this,[3,30,5,1])" class="arrow_left"/>
+                <img onclick="slider_button(this,[4,25,5,-1])" class="arrow_right" />
+                <img onclick="slider_button(this,[4,25,5,1])" class="arrow_left"/>
             </div>
             <button>Xem thêm</button>
         </div>
@@ -317,8 +307,8 @@
                 
             </div>
             <div class="arrow" id="arrow_chuyen_dung">
-                <img onclick="slider_button(this,[3,30,5,-1])" class="arrow_right" />
-                <img onclick="slider_button(this,[3,30,5,1])" class="arrow_left"/>
+                <img onclick="slider_button(this,[4,25,5,-1])" class="arrow_right" />
+                <img onclick="slider_button(this,[4,25,5,1])" class="arrow_left"/>
             </div>
             <button>Xem thêm</button>
         </div>
@@ -543,7 +533,8 @@
     var list_ele_border =[".dich_vu",".san_pham",".tin_tuc",".doi_tac",".lien_he",".doi_tac_sub",".doi_tac_img"];
     elementBorder(list_ele_border);
     //set_footer(".footer");
-    setup_slide("arrow_tieu_bieu");
+    var ve_chung_toi=".ve_chung_toi_content_sub";
+
     setup_slide("arrow_moi_nhat");
     setup_slide("arrow_chuyen_dung");
     console.log(document.body.getBoundingClientRect()); //
