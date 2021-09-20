@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<html itemscope language="vi">
 <head>
 <meta charset="utf-8">
 <title>trang chu</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="stylesheet" href="../statics/css/style.css">
 <script rel="preload"  src="../statics/js/animejs/lib/anime.min.js"></script>
 <script rel="preload" src="../statics/js/main.js"></script>
@@ -50,7 +51,6 @@
         </div>
         
     </div>
-    
     <div class="main_web">
         <div class="khoang_cach_giua_cac_section"></div>
         <div class="ve_chung_toi_x">
@@ -127,39 +127,39 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
         <div class="khoang_cach_giua_cac_section"></div>
         <div class="dich_vu_x">
             <h2 class="dich_vu_h2"><center>Dịch vụ</center></h2>
-            
             <div class=" slide_ngang dich_vu">
                 <div class=" slide_sub dich_vu_sub">
                     <img id="dich_vu_img_1" class="dich_vu_img" src="../statics/img/photos/dich_vu_1.png" alt="">
-                    <div>
+                    <div class = "dich_vu_sub_content">
                         <h3><center>Thiết kế ô tô</center></h3>
                     </div>
                 </div>
                 <div class="dich_vu_sub">
                     <img id="dich_vu_img_2" class="dich_vu_img" src="../statics/img/photos/dich_vu_2.png" alt="">
-                    <div>
+                    <div class = "dich_vu_sub_content">
                         <h3><center>Sản xuất ô tô</center> </h3>
                     </div>
                 </div>
                 <div class="dich_vu_sub">
                     <img id="dich_vu_img_3" class="dich_vu_img" src="../statics/img/photos/dich_vu_3.png" alt="">
-                    <div>
+                    <div class = "dich_vu_sub_content">
                         <h3><center>Bảo dưỡng & sửa chữa</center></h3>
                     </div>
                 </div>
                 <div class="dich_vu_sub">
                     <img id="dich_vu_img_4" class="dich_vu_img" src="../statics/img/photos/dich_vu_4.png" alt="">
-                    <div>
+                    <div class = "dich_vu_sub_content">
                         <h3><center>Phụ tùng chính hãng</center></h3>
                     </div>
                 </div>
                 <div class="dich_vu_sub">
                     <img id="dich_vu_img_5" class="dich_vu_img" src="../statics/img/photos/dich_vu_5.png" alt="">
-                    <div>
+                    <div class = "dich_vu_sub_content">
                         <h3><center>Tư vấn khách hàng</center></h3>
                     </div>
                 </div>
@@ -225,8 +225,6 @@
             </div>
         </div>
         <div class="khoang_cach_giua_cac_section"></div>
-
-        <div class="khoang_cach_giua_cac_section"></div>
         <div class="tieu_bieu_x">
             <h3><center>Sản phẩm mới nhất</center></h3>
             <br><br>
@@ -261,44 +259,19 @@
                     </div>
                     <div class="tieu_bieu_sub_para"></div>
                 </div>
-                
-            </div>
-            <div class="arrow" id="arrow_moi_nhat">
-                <img onclick="slider_button(this,[4,25,5,-1])" class="arrow_right" />
-                <img onclick="slider_button(this,[4,25,5,1])" class="arrow_left"/>
-            </div>
-            <button>Xem thêm</button>
-        </div>
-        <div class="khoang_cach_giua_cac_section"></div>
-        <div class="tieu_bieu_x">
-            <h3><center>Xe chuyên dùng</center></h3>
-            <br><br>
-            <div class=" slide_ngang chuyen_dung">
-                <div class="slide_sub chuyen_dung_sub">
+                <div class="slide_sub moi_nhat_sub">
                     <div class="tieu_bieu_sub_img">
-                        <img src="../statics/img/photos/Presentation1/Slide10.PNG" alt="">
+                        <img src="../statics/img/photos/Presentation1/Slide15.PNG" alt="">
                     </div>
                     <div class="tieu_bieu_sub_para"></div>
                 </div>
-                <div class="slide_sub chuyen_dung_sub">
+                <div class="slide_sub moi_nhat_sub">
                     <div class="tieu_bieu_sub_img">
-                        <img src="../statics/img/photos/Presentation1/Slide12.PNG" alt="">
+                        <img src="../statics/img/photos/Presentation1/Slide15.PNG" alt="">
                     </div>
                     <div class="tieu_bieu_sub_para"></div>
                 </div>
-                <div class="slide_sub chuyen_dung_sub">
-                    <div class="tieu_bieu_sub_img">
-                        <img src="../statics/img/photos/Presentation1/Slide14.PNG" alt="">
-                    </div>
-                    <div class="tieu_bieu_sub_para"></div>
-                </div>
-                <div class="slide_sub chuyen_dung_sub">
-                    <div class="tieu_bieu_sub_img">
-                        <img src="../statics/img/photos/Presentation1/Slide13.PNG" alt="">
-                    </div>
-                    <div class="tieu_bieu_sub_para"></div>
-                </div>
-                <div class="slide_sub chuyen_dung_sub">
+                <div class="slide_sub moi_nhat_sub">
                     <div class="tieu_bieu_sub_img">
                         <img src="../statics/img/photos/Presentation1/Slide15.PNG" alt="">
                     </div>
@@ -306,22 +279,100 @@
                 </div>
                 
             </div>
-            <div class="arrow" id="arrow_chuyen_dung">
-                <img onclick="slider_button(this,[4,25,5,-1])" class="arrow_right" />
-                <img onclick="slider_button(this,[4,25,5,1])" class="arrow_left"/>
+            <div class="arrow" id="arrow_moi_nhat">
+                <img onclick="slider_button(this,[4,25,8,-1])" class="arrow_right" />
+                <img onclick="slider_button(this,[4,25,8,1])" class="arrow_left"/>
             </div>
-            <button>Xem thêm</button>
+        </div>
+        <div class="khoang_cach_giua_cac_section"></div>
+        <div class="tieu_bieu_x">
+            <h2><center>Xe chuyên dùng</center></h2>
+            <br><br>
+            <div class=" box_waper chuyen_dung">
+                <div class="chuyen_dung_sub">
+                    <div class="tieu_bieu_sub_img">
+                        <img src="../statics/img/photos/Presentation1/Slide10.PNG" alt="">
+                    </div>
+                    <div class="tieu_bieu_sub_para">
+                        <h4><center>Xe 1</center></h4>
+                    </div>
+                </div>
+                <div class="chuyen_dung_sub">
+                    <div class="tieu_bieu_sub_img">
+                        <img src="../statics/img/photos/Presentation1/Slide12.PNG" alt="">
+                    </div>
+                    <div class="tieu_bieu_sub_para">
+                        <h4><center>Xe 2</center></h4>
+                    </div>
+                </div>
+                <div class=" chuyen_dung_sub">
+                    <div class="tieu_bieu_sub_img">
+                        <img src="../statics/img/photos/Presentation1/Slide14.PNG" alt="">
+                    </div>
+                    <div class="tieu_bieu_sub_para">
+                        <h4><center>Xe 3</center></h4>
+                    </div>
+                </div>
+                <div class="chuyen_dung_sub">
+                    <div class="tieu_bieu_sub_img">
+                        <img src="../statics/img/photos/Presentation1/Slide13.PNG" alt="">
+                    </div>
+                    <div class="tieu_bieu_sub_para">
+                        <h4><center>Xe 4</center></h4>
+                    </div>
+                </div>
+                <div class="chuyen_dung_sub">
+                    <div class="tieu_bieu_sub_img">
+                        <img src="../statics/img/photos/Presentation1/Slide15.PNG" alt="">
+                    </div>
+                    <div class="tieu_bieu_sub_para">
+                        <h4><center>Xe 5</center></h4>
+                    </div>
+                </div>
+                <div class="chuyen_dung_sub">
+                    <div class="tieu_bieu_sub_img">
+                        <img src="../statics/img/photos/Presentation1/Slide10.PNG" alt="">
+                    </div>
+                    <div class="tieu_bieu_sub_para">
+                        <h4><center>Xe 6</center></h4>
+                    </div>
+                </div>
+                <div class="chuyen_dung_sub">
+                    <div class="tieu_bieu_sub_img">
+                        <img src="../statics/img/photos/Presentation1/Slide12.PNG" alt="">
+                    </div>
+                    <div class="tieu_bieu_sub_para">
+                        <h4><center>Xe 7</center></h4>
+                    </div>
+                </div>
+                <div class=" chuyen_dung_sub">
+                    <div class="tieu_bieu_sub_img">
+                        <img src="../statics/img/photos/Presentation1/Slide14.PNG" alt="">
+                    </div>
+                    <div class="tieu_bieu_sub_para">
+                        <h4>
+                            <center>Xe 8</center>
+                        </h4>
+                    </div>
+                </div>
+                
+            </div>
+            <div class ="xem_them_1">
+                <div>
+                    <img src="https://img.icons8.com/windows/32/ffffff/double-right.png"/>
+                </div>
+                <button>Xem thêm</button>
+            </div>
         </div>
         <div class="khoang_cach_giua_cac_section"></div>
         <div class="tin_tuc_x">
             <h2 class="tin_tuc_h2">
-                <center>Tin tức</center>
+                <center>TIN TỨC</center>
             </h2>
+            <br><br>
             <div class="tin_tuc">
                 
                 <div class="tin_doc">
-                    <h3><center>Tin chính</center></h3>
-                    <br>
                     <div class="tin_doc_img"><img src="../statics/img/photos/slide3_img.jpg" alt=""></div>
                     <div class="tin_doc_content">
                         <p>Những làn sương mờ ảo vẫn còn phảng phất, bình minh vừa hé. Đột ngột tiếng gà gáy vang, phá tan sự yên tĩnh, mọi vật bừng tỉnh giấc. Đó là tiếng gáy của bạn gà trống nòi nhà em.
@@ -334,28 +385,57 @@
                     <div class="tin_van">
                         <img id="tin_van_img_1" class="tin_van_img" alt="">
                         <div class="tin_van_para">
-                            <h3>Tin 1</h3>
-                            <p>
-                                Chuyện chức phán sự ở đền Tàn Viên là 1 trong những chuyện hay, tiêu biểu của Truyền kỳ mạn lục. Câu chuyện đã phê phán hiện thực xã hội và đề cao phẩm chất kẽ sĩ, đồng thơi phản ánh khá rõ tinh thần dân tộc của tác giả, mà nhân vật chính là Ngô Tử Văn một con người tính tình khảng kháng, trung trực.
-                            </p>
+                            <h4>
+                                Chuyện chức phán sự ở đền Tàn Viên là 1 trong những chuyện hay, tiêu biểu của Truyền kỳ mạn lục.
+                            </h4>
+                            <p>21/09/2021</p>
                         </div>
                     </div>
                     <div class="tin_van">
                         <img id="tin_van_img_2" class="tin_van_img" alt="">
                         <div class="tin_van_para">
-                            <h3>Tin 2</h3>
-                            <p> Chuyện chức phán sự ở đền Tàn Viên là 1 trong những chuyện hay, tiêu biểu của Truyền kỳ mạn lục. Câu chuyện đã phê phán hiện thực xã hội và đề cao phẩm chất kẽ sĩ, đồng thơi phản ánh khá rõ tinh thần dân tộc của tác giả, mà nhân vật chính là Ngô Tử Văn một con người tính tình khảng kháng, trung trực.</p>
+                            <h4>
+                                Chuyện chức phán sự ở đền Tàn Viên là 1 trong những chuyện hay, tiêu biểu của Truyền kỳ mạn lục.
+                            </h4>
+                            <p>21/09/2021</p>
                         </div>
                     </div>
                     <div class="tin_van">
                         <img id="tin_van_img_3" class="tin_van_img" alt="">
                         <div class="tin_van_para">
-                            <h3>Tin 3</h3>
-                            <p>Chuyện chức phán sự ở đền Tàn Viên là 1 trong những chuyện hay, tiêu biểu của Truyền kỳ mạn lục. Câu chuyện đã phê phán hiện thực xã hội và đề cao phẩm chất kẽ sĩ, đồng thơi phản ánh khá rõ tinh thần dân tộc của tác giả, mà nhân vật chính là Ngô Tử Văn một con người tính tình khảng kháng, trung trực.</p>
+                            <h4>
+                                Chuyện chức phán sự ở đền Tàn Viên là 1 trong những chuyện hay, tiêu biểu của Truyền kỳ mạn lục.
+                            </h4>
+                            <p>21/09/2021</p>
+                        </div>
+                    </div>
+                    <div class="tin_van">
+                        <img id="tin_van_img_3" class="tin_van_img" alt="">
+                        <div class="tin_van_para">
+                            <h4>
+                                Chuyện chức phán sự ở đền Tàn Viên là 1 trong những chuyện hay, tiêu biểu của Truyền kỳ mạn lục.
+                            </h4>
+                            <p>21/09/2021</p>
+                        </div>
+                    </div>
+                    <div class="tin_van">
+                        <img id="tin_van_img_3" class="tin_van_img" alt="">
+                        <div class="tin_van_para">
+                            <h4>
+                                Chuyện chức phán sự ở đền Tàn Viên là 1 trong những chuyện hay, tiêu biểu của Truyền kỳ mạn lục.
+                            </h4>
+                            <p>21/09/2021</p>
                         </div>
                     </div>
                 </div>
-                <div class="tin_doc"></div>
+                <div class="tin_doc">
+                    <div class="tin_doc_img"><img src="../statics/img/photos/quang_cao.jpg" alt=""></div>
+                    <div class="tin_doc_content">
+                        <p>Những làn sương mờ ảo vẫn còn phảng phất, bình minh vừa hé. Đột ngột tiếng gà gáy vang, phá tan sự yên tĩnh, mọi vật bừng tỉnh giấc. Đó là tiếng gáy của bạn gà trống nòi nhà em.
+                            </p>
+                    </div>
+
+                </div>
             </div>
         </div>
         <div class="khoang_cach_giua_cac_section"></div>
@@ -454,8 +534,6 @@
             <h3><center>Đánh giá khách hàng</center> </h3>
             <div class="danh_gia_khach_hang"></div>
         </div>
-        
-        
     </div>
     <div class="footer">
         <div class="ft_sub">
@@ -512,7 +590,6 @@
         </div>
     </div>
 </div>
-
 <script>
     animation();
     //top_main_web();
@@ -523,7 +600,7 @@
     var ve_chung_toi=".ve_chung_toi_content_sub";
 
     setup_slide("arrow_moi_nhat");
-    setup_slide("arrow_chuyen_dung");
+
     console.log(document.body.getBoundingClientRect()); //
 </script>
 </body>
