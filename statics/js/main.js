@@ -61,7 +61,7 @@ function set_footer(footer){
 function slider_button(id_this,flex_view){
   var step = ((100 - flex_view[0]*flex_view[1])/(flex_view[0]))/flex_view[1];
   step = flex_view[3]*parseInt((1 + step)*100, 10) ;
-  var class_sub_fullname = id_this.parentElement.parentElement.children[3].children[0].className;
+  var class_sub_fullname = id_this.parentElement.parentElement.children[4].children[0].className;
   var class_sub_name = class_sub_fullname.split(" ")[1];
   class_sub_name = "." + class_sub_name;
   var str = (document.querySelector(class_sub_name).style.transform);
