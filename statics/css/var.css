@@ -2,8 +2,9 @@
     --mau_nen_windows_1:#ffffff;
     --mau_nen_page_1:#ffffff;
     --mau_nen_header_1:rgba(2, 48, 71, 1);
-    --mau_chu_de_1:#f8f8f8;
-    --mau_footer:rgb(156, 111, 13);
+    /*--mau_chu_de_1:#f8f8f8;*/
+    --mau_chu_de_1:rgba(2, 48, 71, 0.05);
+    --mau_footer:rgba(2, 48, 71, 1);
     --color_chu_menu:#ffffff;
     --height_header:80px; /* chiều cao header, chiều cao logo = 0.8* chiều cao header */
     --width_logo:80px;
@@ -16,6 +17,7 @@
     --thut_le_section_ve_chung_toi:2%;
     --height_section_ve_chung_toi:600px;
     --height_section_tin_tuc:800px;
+    --height_section_danh_gia_khach_hang:400px;
     --ty_le_menu_section_ve_chung_toi:20%;/*tỷ lệ của thẻ menu trong section về chúng tôi*/
     --min_menu_section_ve_chung_toi:180px; /*bề rộng hoặc cao nhỏ nhất của thẻ menu trong section về chúng tôi */
     --ty_le_img_ve_chung_toi_content:40%;
