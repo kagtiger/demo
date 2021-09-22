@@ -315,12 +315,7 @@ body{
     box-shadow: rgb(38, 57, 77) 0px 25px 30px -10px;
     transition-duration: 0.15s;
     outline: none;
-    
-
 }
-
-
-
 .dich_vu_img{
     position: relative;
     display: block;
@@ -565,9 +560,9 @@ body{
     top:0px;
     position: relative;
     float:right;
-    right: 80px;
+    right: 60px;
     height: 100%;
-    width: 160px;
+    width: 100px;
     outline:none;
     border:none;
     background-color: cadetblue;
@@ -576,7 +571,7 @@ body{
 .xem_them_1 div{
     position: relative;
     float:right;
-    right: 275px;
+    right: 195px;
     top:0px;
     height:100%;
     width: 35px;
@@ -722,9 +717,13 @@ body{
     left:5%;
 }
 .tin_van_para p{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0px;
     line-height: 1.5em;
     text-align: justify;
     width:100%;
+    transform: translateY(-100%);
 }
 .doi_tac_x{
     position: relative;

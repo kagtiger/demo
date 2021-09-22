@@ -10,7 +10,7 @@ function animation(){
       {translateX: 0},
 
     ],
-    duration: 12000,
+    duration: 25000,
     delay: 1000,
     easing: 'easeInOutQuart',
     loop: true
