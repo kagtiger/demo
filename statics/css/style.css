@@ -82,8 +82,6 @@ body{
     height: 80%;
     width: var(--rong_menu);
     transform: translateY(-50%);
-
-
     right: var(--le_menu);
 }
 .menu lu{
@@ -119,9 +117,8 @@ body{
 }
 .menu a{
     position: relative;
-
     text-align: center;
-    width: 140px;
+    width: 18px;
     padding: 7px;
     text-decoration: none;
     font-size: large;
@@ -171,11 +168,16 @@ body{
     display: flex;
     flex-direction: column;
 }
+.ve_chung_toi_ss{
+    height: 0px!important;
+}
 .ve_chung_toi_x{
     position: relative;
     left: var(--thut_le_section_ve_chung_toi);
     width: calc( 100% - var(--thut_le_section_ve_chung_toi)*2 );
     height: auto;
+    background-color:var(--mau_chu_de_1);
+    padding-top: 20px;
 }
 .ve_chung_toi_h2{
     position: relative;
@@ -187,7 +189,7 @@ body{
     left:0px;
     height:var(--height_section_ve_chung_toi);
     width: 100%;
-    background-color:var(--mau_chu_de_1);
+    
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
     display: flex;
     flex-direction: row;
@@ -263,9 +265,6 @@ body{
     padding-left: 3%;
     line-height: 1.2em;
     text-align: justify;
-
-    font-family:Arial, Helvetica, sans-serif;
-
     text-decoration: none;
     
 }
@@ -343,10 +342,11 @@ body{
 }
 .san_pham_x{
     position: relative;
-    
+    padding-top: 20px;
     left: var(--thut_le_dich_vu);
     width: calc( 100% - var(--thut_le_dich_vu) * 2 );
     height: auto;
+    background-color:var(--mau_chu_de_1);
 }
 
 .san_pham_h2{
@@ -388,7 +388,7 @@ body{
 .san_pham_list{
     height:100%;
     width: 100%;
-    background-color: var(--mau_chu_de_1);
+    /*background-color: var(--mau_chu_de_1);*/
     display:flex;
 }
 .sp_list_sub{
@@ -488,8 +488,8 @@ body{
     left: var(--thut_le_dich_vu);
     width: calc( 100% - var(--thut_le_dich_vu)*2 );
     height: auto;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
 .tieu_bieu{

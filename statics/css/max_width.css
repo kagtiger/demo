@@ -1,16 +1,23 @@
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1440px) {
     .html,body{
         overflow-x: hidden !important;
     }
-  
+    .header{
+        height: calc(var(--height_header) * 0.8)!important;
+    }
+    .menu{
+        width: calc(var(--rong_menu)*1.2)!important;
+        left:calc(100% - var(--rong_menu) - var(--le_menu) * 2.5)!important;
+    }
     .menu li{
-        padding-right: calc( var(--khoang_cach_element_menu) * 0.8) !important;
+        margin-right: var(--khoang_cach_element_menu_header) * 0.5 !important;
     }
     .menu a{
-        font-size: calc( var(--size_chu_menu) *0.8 ) !important; 
+        font-size: calc( var(--size_chu_menu) *0.6 ) !important; 
     }
     .dich_vu{
         height: auto!important;
+
     }
     .dich_vu_sub_content{
         position: relative;
