@@ -111,17 +111,15 @@ function setup_slide(arrow_id) {
   }
   var a =class_slide.children[0].children[0].children[0];
   if (a.complete===false){
-
     var rec_slide = class_slide.getBoundingClientRect();
-  
-    id_arrow.style.height=300+"px";
+    id_arrow.style.height=150+"px";
     id_arrow.style.top = rec_slide.top - id_arrow.parentElement.getBoundingClientRect().top +"px" ;
   }
-
-  var rec_slide = class_slide.getBoundingClientRect();
-
+  else{
+    var rec_slide = class_slide.getBoundingClientRect();
   id_arrow.style.height=rec_slide.height+"px";
   id_arrow.style.top = rec_slide.top - id_arrow.parentElement.getBoundingClientRect().top +"px" ;
+  }
 
   
 }
