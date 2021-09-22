@@ -220,7 +220,6 @@ body{
     background-color: cadetblue;
 }
 .menu_btn h3{
-
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
@@ -1026,7 +1025,7 @@ body{
     height:auto;
     padding-right: 2.5%;
     padding-left: 2.5%;
-
+    text-align: justify;
     display: flex;
     flex-direction: column;
 }
@@ -1066,6 +1065,7 @@ body{
 .ft_sub_2{
     position: relative;
     height:auto;
+    text-align: justify;
 }
 
 /*---------------------------------------------------------*/

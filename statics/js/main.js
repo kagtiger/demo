@@ -144,4 +144,18 @@ function my_menu_btn(id_content){
     easing: 'easeInOutQuart',
 
   });
+  console.log(id_content[2].parentElement.children);
+  brother_e = id_content[2].parentElement.children;
+  for (var i=0; i<brother_e.length;i++){
+    brother_e[i].style.backgroundColor = "rgba(0, 0, 0, 0)";
+    brother_e[i].style.color="#000000";
+  }
+
+  id_content[2].addEventListener('mouseover', function(){
+    id_content[2].style.backgroundColor = "cadetblue";
+    id_content[2].style.color="#ffffff";
+});
+
 }
+
+
