@@ -144,18 +144,35 @@ function my_menu_btn(id_content){
     easing: 'easeInOutQuart',
 
   });
-  console.log(id_content[2].parentElement.children);
+  
   brother_e = id_content[2].parentElement.children;
   for (var i=0; i<brother_e.length;i++){
     brother_e[i].style.backgroundColor = "rgba(0, 0, 0, 0)";
     brother_e[i].style.color="#000000";
   }
-
-  id_content[2].addEventListener('mouseover', function(){
-    id_content[2].style.backgroundColor = "cadetblue";
+  id_content[2].style.backgroundColor = "cadetblue";
     id_content[2].style.color="#ffffff";
-});
+  
 
 }
 
-
+function click_color(id_this){
+  var bro_e = id_this.parentElement.parentElement.children;
+  for (var i=0;i<bro_e.length;i++){
+    bro_e[i].children[0].style.backgroundColor = "rgba(0, 0, 0, 0)";
+    bro_e[i].children[0].style.color="#ffffff";
+  }
+  id_this.style.backgroundColor="#ffffff";
+  id_this.style.color="rgba(2, 48, 71, 1)";
+}
+function menu_color(menu_id){
+  var tilte = document.title.toLowerCase()
+  var bro_e = document.querySelector(menu_id).children[0].children;
+  for(var i=0;i<bro_e.length;i++){
+    var a_element =bro_e[i].children[0];
+    if (a_element.innerHTML.toLowerCase()===tilte){
+      a_element.style.backgroundColor="#ffffff";
+      a_element.style.color="rgba(2, 48, 71, 1)";
+    }
+  }
+}

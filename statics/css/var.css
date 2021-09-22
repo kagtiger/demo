@@ -19,7 +19,7 @@
     --height_section_tin_tuc:800px;
     --height_section_danh_gia_khach_hang:400px;
     --ty_le_menu_section_ve_chung_toi:20%;/*tỷ lệ của thẻ menu trong section về chúng tôi*/
-    --min_menu_section_ve_chung_toi:180px; /*bề rộng hoặc cao nhỏ nhất của thẻ menu trong section về chúng tôi */
+    --min_menu_section_ve_chung_toi:200px; /*bề rộng hoặc cao nhỏ nhất của thẻ menu trong section về chúng tôi */
     --ty_le_img_ve_chung_toi_content:40%;
     --height_section_dich_vu:400px;
     --height_section_san_pham:400px;
