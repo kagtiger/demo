@@ -6,11 +6,11 @@
         height: calc(var(--height_header) * 0.8)!important;
     }
     .menu{
-        width: calc(var(--rong_menu)*1.2)!important;
-        left:calc(100% - var(--rong_menu) - var(--le_menu) * 2.5)!important;
+        right: calc(var(--le_menu) * 0.8 )!important;
     }
     .menu li{
-        margin-right: var(--khoang_cach_element_menu_header) * 0.5 !important;
+        margin-right: calc(var(--khoang_cach_element_menu_header) * 0.3) !important;
+        margin-right: calc(var(--khoang_cach_element_menu_header) * 0.3) !important;
     }
     .menu a{
         font-size: calc( var(--size_chu_menu) *0.6 ) !important; 
@@ -33,6 +33,24 @@
 
     }
 }
+
+@media screen and (max-width: 1100px) {
+    .menu{
+        display:none;
+    }
+    #icon_menu{
+        display: block!important;
+        top: 15%;
+        position: relative;
+        height: 70%;
+        order:2;
+        margin-left: auto;
+        right: 20px;
+    }
+}
+
+
+
 
 @media screen and (max-width: 850px) {
     html,body{

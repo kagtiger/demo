@@ -78,47 +78,33 @@ body{
 .menu{
     position: relative;
     top:50%;
-    left:calc(100% - var(--rong_menu) - var(--le_menu));
+    /*left:calc(100% - var(--rong_menu) - var(--le_menu));*/
     height: 80%;
     width: var(--rong_menu);
     transform: translateY(-50%);
     right: var(--le_menu);
+    order: 2;
+    margin-left: auto;
+
 }
 .menu lu{
     top:30%;
     transform: translateY(-50%);
-    left:100%;
-    transform:translateX(-100%);
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
     flex-direction: row;
 }
-/*
-.menu{
-    position: relative;
-    float: left;
-    right: var(--le_menu);
-    margin-top:20px;
-    z-index: 5;
-}
-.menu lu{
-    position: relative;
-    width: 100%;
-    display:flex;
-}*/
+
 .menu li{
-    
     position: relative;
     width: auto;
     list-style: none;
-    margin-right: var(--khoang_cach_element_menu_header);
 }
 .menu a{
+
     position: relative;
-    text-align: center;
-    width: 18px;
     padding: 7px;
     text-decoration: none;
     font-size: large;
@@ -126,8 +112,6 @@ body{
     border-radius: 8px;
 }
 .menu a:hover{
-    
-    
     background-color: white;
     color: #000;
 }
@@ -1044,10 +1028,14 @@ body{
     height: 48px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 .icon_social img{
+    position: relative;
     height: 100%;
-    padding-right: 10%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 15px;
 }
 .ft_sub li{
     padding-top: 30px;
