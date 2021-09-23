@@ -398,6 +398,7 @@ body{
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    color: #ffffff;
 }
 
 .sp_list_sub:hover{
