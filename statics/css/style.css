@@ -664,24 +664,22 @@ body{
     top:0px;
     left:0px;
     width: 40%;
-    height: calc( 100% - 30px);
-
-    padding:15px;
+    padding-right: 15px;
     display: flex;
     flex-direction: column;
-
 }
 .tin_van{
     position: relative;
     top:0px;
     height: 25%;
     margin: calc( (100% - 3 * 25%)/ 12);
-    padding:calc( (100% - 3 * 25%)/ 12);
+    padding-right:calc( (100% - 3 * 25%)/ 12);
     width: 100%;
     display: flex;
     overflow-y: hidden;
     cursor: pointer;
 }
+
 .tin_van:hover{
     background-color:bisque;
     border-radius: 20px;
