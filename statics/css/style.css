@@ -393,7 +393,7 @@ body{
     height:80%;
     margin-right: calc((100% - 5 * 15%) / 10);
     margin-left: calc((100% - 5 * 15%) / 10);
-    background-color: green;
+    background-color: var(--mau_nen_header_1);
     border-radius:12px;
     display: flex;
     flex-direction: column;
@@ -995,17 +995,12 @@ body{
     
 }
 
-.lien_he_my_map:active{
-    animation: mymove;
-    animation-duration: 3s;
-}
 
-@keyframes mymove {
-    from {width: 50%;}
-    to {width: 80%;}
-  }
 
 .lien_he_my_map iframe{
+    position: relative;
+    width: 50%;
+    height: 480px;
     top: 0px;
     transform: translateY(-50px);
     
