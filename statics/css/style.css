@@ -496,7 +496,7 @@ body{
     width: var(--width_main_section);
     height:auto;
     
-    background-color:var(--mau_chu_de_1);
+    /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
 }
 .tieu_bieu::-webkit-scrollbar{
@@ -756,6 +756,8 @@ body{
     margin-left: calc(( 100% - 6 * 12% ) / 12);
     margin-right: calc(( 100% - 6 * 12% ) / 12);
     margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-bottom: 30px;
     cursor: pointer;
     background-color: #ffffff;
@@ -939,7 +941,6 @@ body{
     position: relative;
     height:100%;
 }
-
 .thong_tin_khach{
     position: relative;
     left: 0px;
@@ -979,8 +980,6 @@ body{
    text-align: justify;
    line-height: 1.5em;
 }
-
-
 .lien_he_x{
     position: relative;
     left: var(--thut_le_dich_vu);
@@ -1003,16 +1002,12 @@ body{
     overflow: hidden;
     
 }
-
-
-
 .lien_he_my_map iframe{
     position: relative;
     width: 50%;
     height: 480px;
     top: 0px;
     transform: translateY(-50px);
-    
 }
 .footer{
     position:relative;
