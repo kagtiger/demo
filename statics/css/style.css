@@ -187,10 +187,9 @@ body{
 }
 .ve_chung_toi{
     position: relative;
-    left:0px;
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
     height:var(--height_section_ve_chung_toi);
-    width: 100%;
-    
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
     display: flex;
     flex-direction: row;
@@ -289,10 +288,12 @@ body{
 }
 .dich_vu{
     
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
     position: relative;
     /*background-color:var(--mau_chu_de_1);*/
     height: var(--height_section_dich_vu);
-    width: 100%;
+    
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
     padding: 20px;
 }
@@ -352,9 +353,10 @@ body{
 
 .san_pham{
     position: relative;
-    left:0px;
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
     height:var(--height_section_san_pham);
-    width: 100%;
+    
     /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
 
@@ -490,9 +492,10 @@ body{
 
 .tieu_bieu{
     position: relative;
-    left:0px;
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
     height:auto;
-    width: 100%;
+    
     background-color:var(--mau_chu_de_1);
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
 }
@@ -603,9 +606,10 @@ body{
 }
 .tin_tuc{
     position: relative;
-    left:0px;
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
     height:var(--height_section_tin_tuc);
-    width: 100%;
+    
     /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
     display:flex;
@@ -732,9 +736,9 @@ body{
 }
 .doi_tac{
     position: relative;
-    left:0px;
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
     height: auto ;
-    width: 100%;
     /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
     display: flex;
@@ -782,8 +786,9 @@ body{
 }
 .chung_toi_muon{
     position: relative;
-    left:0px;
-    width: 100%;
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
+    
     
     /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
@@ -831,7 +836,6 @@ body{
     color: rgb(2,48, 71);
     text-align: center;
 }
-
 .tai_sao_lua_chon_chung_toi_x{
     position: relative;
     left: var(--thut_le_dich_vu);
@@ -840,9 +844,10 @@ body{
 }
 .tai_sao_lua_chon_chung_toi{
     position: relative;
-    left:0px;
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
     height:var(--height_section_ve_chung_toi);
-    width: 100%;
+    
     /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
     
@@ -882,9 +887,10 @@ body{
 }
 .danh_gia_khach_hang{
     position: relative;
-    left:0px;
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
     height:var(--height_section_danh_gia_khach_hang);
-    width: 100%;
+    
     display: flex;
     flex-direction: row;
     /*background-color:var(--mau_chu_de_1);*/
@@ -978,9 +984,9 @@ body{
 }
 .lien_he{
     position: relative;
-    left:0px;
+    left:calc((100% - var(--width_main_section)) / 2);
     height:var(--height_section_ve_chung_toi);
-    width: 100%;
+    width: var(--width_main_section);
     /*background-color:var(--mau_chu_de_1);*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
 
