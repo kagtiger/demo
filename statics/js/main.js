@@ -164,7 +164,7 @@ function click_color(id_this){
   id_this.style.color="rgba(2, 48, 71, 1)";
 }
 function menu_color(menu_id){
-  var tilte = document.title.toLowerCase()
+  var tilte = document.title.toLowerCase();
   var bro_e = document.querySelector(menu_id).children[0].children;
   for(var i=0;i<bro_e.length;i++){
     var a_element =bro_e[i].children[0];
