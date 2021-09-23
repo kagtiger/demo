@@ -733,6 +733,11 @@ body{
     left: var(--thut_le_dich_vu);
     width: calc( 100% - var(--thut_le_dich_vu)*2 );
     height: auto;
+    background-color: var(--mau_nen_header_1);
+    padding-top: 20px;
+}
+.doi_tac_x h2{
+    color: #ffffff;
 }
 .doi_tac{
     position: relative;
@@ -753,7 +758,7 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
     cursor: pointer;
-    
+    background-color: #ffffff;
 }
 .doi_tac_sub:hover{
     transform:translateY(-20px);
