@@ -490,7 +490,7 @@ body{
     padding-bottom:20px;
 }
 
-.tieu_bieu{
+.chuyen_dung{
     position: relative;
     left:calc((100% - var(--width_main_section)) / 2);
     width: var(--width_main_section);
