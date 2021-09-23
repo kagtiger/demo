@@ -542,9 +542,9 @@ body{
 .chuyen_dung_sub{
     position: relative;
     height: 100%;
-    width: 20%;
-    margin-left: calc((100% - 4 * 20%) / 8);
-    margin-right: calc((100% - 4 * 20%) / 8);
+    width: 22.5%;
+    margin-left: calc((100% - 4 * 20%) / 16);
+    margin-right: calc((100% - 4 * 20%) / 16);
     margin-top: calc((100% - 4 * 20%) / 12);
     margin-bottom: calc((100% - 4 * 20%) / 12);
     
