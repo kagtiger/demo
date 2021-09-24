@@ -1055,6 +1055,152 @@ body{
     text-align: justify;
 }
 
+
+
+
+
+/*---------------------------------------------------------*/
+/*--------------------set up sp   -------------------------*/
+/*---------------------------------------------------------*/
+
+
+
+.thong_tin_san_pham_x{
+    position: relative;
+    left: var(--thut_le_dich_vu);
+    width: calc( 100% - var(--thut_le_dich_vu)*2 );
+    height: auto;
+    background-color: var(--mau_chu_de_1);
+    padding-top: 20px;
+}
+
+.thong_tin_san_pham{
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
+    position: relative;
+    /*background-color:var(--mau_chu_de_1);*/
+    height: auto;
+    /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.anh_ten_sp{
+    position: relative;
+    left: 20px;
+    width: calc(100% - 2* 20px);
+    height: auto;
+    min-height: 300px;
+    display: flex;
+}
+
+.ten_sp{
+    position: relative;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    min-height: 300px;
+    
+}
+
+.ten_sp h3{
+    padding-left: 20px;
+}
+
+.ten_sp p{
+    position: absolute;
+    bottom: 0;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    line-height: 1.5em;
+    text-align: justify;
+    width:100%;
+    transform: translateY(-100%);
+}
+
+.anh_img{
+    position: relative;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.anh_img img{
+    position: relative;
+    width: 100%;
+}
+
+.thong_so_sp{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    
+}
+
+.menu_thong_so_sp{
+    align-items: center;
+}
+
+.menu_thong_so_sp ul{
+    position: relative;
+    
+}
+
+.menu_thong_so_sp li{
+    display: inline;
+    text-align: center;
+}
+
+.menu_thong_so_sp button{
+    position: relative;
+    text-align: center;
+    padding: 7px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0) ;
+}
+
+.menu_thong_so_sp button:hover{
+    background-color: var(--mau_nen_header_1);
+    color: #ffffff;
+}
+
+.content_thong_so_sub{
+    position: relative;
+    height: auto;
+    min-height: 600px;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+.content_thong_so_sub::-webkit-scrollbar{
+    display: none;
+}
+
+.content_thong_so_sub table{
+    position: relative;
+    height: auto;
+    
+    
+}
+table   {
+    border-collapse: collapse;
+    border: 1px solid black;
+ }
+ 
+ table  th {
+    border: 1px solid black;
+    padding: 20px;
+ 
+ }
+ table  td {
+    border: 1px solid black;
+    padding: 15px;
+ }
 /*---------------------------------------------------------*/
 /*--------------------set up riêng   ----------------------*/
 /*---------------------------------------------------------*/
