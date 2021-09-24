@@ -174,3 +174,37 @@ function menu_color(menu_id){
     }
   }
 }
+
+
+function my_menu_btn2(id_content){
+  var class_sub_name = id_content[0];
+  var str = (document.querySelector(class_sub_name).style.transform);
+  str = str.slice(11, str.length-2);
+  var trans = id_content[1]*-100;
+  console.log(class_sub_name)
+  if (parseInt(str)===trans){
+    return 0;
+  }
+
+  var ani_btn = anime({
+    targets: class_sub_name,
+    keyframes: [
+      {translateX: trans+"%"},
+    ],
+    duration: 200,
+    delay: 10,
+    easing: 'easeInOutQuart',
+
+  });
+  
+  brother_e = id_content[2].parentElement.parentElement.children;
+  console.log(brother_e);
+  for (var i=0; i<brother_e.length;i++){
+    brother_e[i].children[0].style.backgroundColor = "rgba(0, 0, 0, 0)";
+    brother_e[i].children[0].style.color="#000000";
+  }
+  id_content[2].style.backgroundColor = "cadetblue";
+    id_content[2].style.color="#ffffff";
+  
+
+}

@@ -74,13 +74,13 @@
                     <div class="thong_so_sp">
                         <div class=" menu_thong_so_sp">
                             <ul>
-                                <li><button>THÔNG TIN SẢN PHẨM</button></li>
-                                <li><button>THÔNG TIN THANH TOÁN</button></li>
-                                <li><button>CHÍNH SÁCH VẬN CHUYỂN</button></li>
+                                <li><button onclick="my_menu_btn2([content_thong_so_sub,0,this])">THÔNG TIN SẢN PHẨM</button></li>
+                                <li><button onclick="my_menu_btn2([content_thong_so_sub,1,this])">THÔNG TIN THANH TOÁN</button></li>
+                                <li><button onclick="my_menu_btn2([content_thong_so_sub,2,this])">CHÍNH SÁCH VẬN CHUYỂN</button></li>
                             </ul>
                         </div>
-                        <div class=" slide_ngang content_thong_so">
-                            <div class=" slide_sub content_thong_so_sub">
+                        <div class="slide_ngang content_thong_so">
+                            <div id="thong_tin_san_pham" class=" slide_sub content_thong_so_sub">
                                 <table>
                                     <thead>
                                         <tr>
@@ -124,8 +124,16 @@
                                     
                                 </table>
                             </div>
-                            <div class=" slide_sub content_thong_so_sub"></div>
-                            <div class=" slide_sub content_thong_so_sub"></div>
+                            <div id="thong_tin_thanh_toan" class=" slide_sub content_thong_so_sub">
+                                <p>Bước 1: Truy cập website để tìm hiểu về sản phẩm công ty hiện có.</p>
+                                <br>
+                                <p>Bước 2: Liên hệ với chúng tôi qua Hotline để được tư vấn và hướng dẫn mua hàng, ký hợp đồng và giao nhận xe.</p>
+                                <br>
+                                <p>HÌNH THỨC THANH TOÁN: Giá trị hợp đồng được thanh toán thành 02 lần: Lần 01: Sau khi ký hợp đồng bên mua thanh toán 40% giá trị hợp đồng cùng bảo lãnh thanh toán của ngân hàng (nếu khách hàng có nhu cầu mua trả góp của ngân hàng). Lần 02: Bên mua hoặc ngân hàng tài trợ cho bên mua thanh toán 70% giá trị hợp đồng còn lại, bên bán bàn giao xe cho bên mua. Thanh toán chuyển khoản 100% bằng đồng Việt Nam. Trân trọng cảm ơn Quý khách!</p>
+                            </div>
+                            <div id="chinh_sach_van_chuyen" class=" slide_sub content_thong_so_sub">
+                                <p>Với mong muốn mang lại sự hài lòng cho quý khách khi mua hàng, chúng tôi có những quy định trong vận chuyển, nhằm đảm bảo rằng những sản phẩm quý khách mua là sản phẩm mà vừa ý nhất.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -200,7 +208,7 @@
     //var list_ele_border =[".dich_vu",".san_pham",".tin_tuc",".doi_tac",".lien_he",".doi_tac_sub",".doi_tac_img"];
     //elementBorder(list_ele_border);
     //set_footer(".footer");
-    //var ve_chung_toi=".ve_chung_toi_content_sub";
+    var content_thong_so_sub=".content_thong_so_sub";
      menu_color("#menu_page");
 </script>
 </body>

@@ -1174,16 +1174,22 @@ body{
     min-height: 600px;
     width: 100%;
     overflow-y: auto;
-    display: flex;
-    justify-content: center;
+    
 }
 .content_thong_so_sub::-webkit-scrollbar{
     display: none;
 }
 
+.content_thong_so_sub p{
+    line-height: 1.5em;
+    text-align: justify;
+}
+
 .content_thong_so_sub table{
     position: relative;
     height: auto;
+    left: 50%;
+    transform: translateX(-50%);
     
     
 }
