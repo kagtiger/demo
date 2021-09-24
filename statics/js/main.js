@@ -181,7 +181,7 @@ function my_menu_btn2(id_content){
   var str = (document.querySelector(class_sub_name).style.transform);
   str = str.slice(11, str.length-2);
   var trans = id_content[1]*-100;
-  console.log(class_sub_name)
+  
   if (parseInt(str)===trans){
     return 0;
   }
@@ -198,7 +198,7 @@ function my_menu_btn2(id_content){
   });
   
   brother_e = id_content[2].parentElement.parentElement.children;
-  console.log(brother_e);
+  
   for (var i=0; i<brother_e.length;i++){
     brother_e[i].children[0].style.backgroundColor = "rgba(0, 0, 0, 0)";
     brother_e[i].children[0].style.color="#000000";
