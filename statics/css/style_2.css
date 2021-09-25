@@ -1,0 +1,72 @@
+@import url("var.css");
+@import url("max_width.css");
+@import url("id_anh.css");
+
+.danh_sach_sp_x{
+    position: relative;
+    left: var(--thut_le_section_ve_chung_toi);
+    width: calc( 100% - var(--thut_le_section_ve_chung_toi)*2 );
+    height: auto;
+    background-color:var(--mau_chu_de_1);
+    padding-top: 20px;
+}
+
+.danh_sach_sp{
+    position: relative;
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
+    
+    /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.slide_chon_xe{
+    position: relative;
+}
+
+.danh_sach_xe{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    
+    overflow: hidden;
+}
+
+.xe_sub{
+    position: relative;
+    width: var(--width_sub_xe);
+    margin-left: calc((100% - var(--so_sub_xe_mot_hang) * var(--width_sub_xe) )/(2 * var(--so_sub_xe_mot_hang) ));
+    margin-right: calc((100% - var(--so_sub_xe_mot_hang) * var(--width_sub_xe) )/(2 * var(--so_sub_xe_mot_hang) ));
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: auto ;
+    height: auto;
+    
+}
+.xe_img{
+    position: relative;
+    width: 100%;
+    padding-top: calc( 100% / 16 * 9);
+    background-color: bisque;
+    overflow: hidden;
+}
+.xe_img img{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+
+}
+.xe_para{
+    position: relative;
+    text-align: center;
+    padding: 5px;
+}

@@ -29,7 +29,13 @@
     --gap_element_san_pham:20px;
     --grip_row_element_san_pham: calc(10% - var(--gap_element_san_pham)) calc(20% - var(--gap_element_san_pham)) calc(70% - var(--gap_element_san_pham));
     --font_section_h2:'Josefin Sans', sans-serif;
+
+    /*trang san pham*/
+
+    --width_sub_xe:22%;
+    --so_sub_xe_mot_hang:4;
     
+
 }
 
 /*--font_section_h2*/
