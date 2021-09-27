@@ -205,6 +205,13 @@ function my_menu_btn2(id_content){
   }
   id_content[2].style.backgroundColor = "cadetblue";
     id_content[2].style.color="#ffffff";
-  
+}
+function read_iframe(){
+  var x = document.getElementsByTagName("iframe")[0].contentWindow;
+//x = window.frames[0];
 
+console.log(x.document.getElementsByTagName("p"));
+}
+function dont_show(){
+  return 0;
 }
