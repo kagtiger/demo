@@ -6,13 +6,11 @@
         height: calc(var(--height_header) * 0.8)!important;
     }
     .menu{
-        right: calc(var(--le_menu) * 0.8 )!important;
+        width: calc(var(--rong_menu) * 0.85) !important;
+        margin-right: calc(var(--le_menu) * 0.8)!important;
     }
-    .menu li{
-        margin-right: calc(var(--khoang_cach_element_menu_header) * 0.3) !important;
-        margin-right: calc(var(--khoang_cach_element_menu_header) * 0.3) !important;
-    }
-    .menu a{
+
+    .menu > ul > li > a{
         font-size: calc( var(--size_chu_menu) *0.6 ) !important; 
     }
     .ve_chung_toi_menu{
