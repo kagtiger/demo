@@ -258,3 +258,123 @@
 .khoang_cach_noi_dung_ve_chung_toi_footer{
     height: 0px !important;
 }
+
+.main_tin_tuc_x{
+    position: relative;
+    left: var(--thut_le_section_ve_chung_toi);
+    width: calc( 100% - var(--thut_le_section_ve_chung_toi)*2 );
+    height: auto;
+    background-color:var(--mau_chu_de_1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.main_tin_tuc{
+    position: relative;
+    left:calc((100% - var(--width_main_section)) / 2);
+    width: var(--width_main_section);
+    
+    /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
+    display: flex;
+    flex-direction: column;
+}
+.tin_noi_bat{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 480px;
+    display: flex;
+}
+.tin_noi_bat_doc{
+    position: relative;
+    width: 50%;
+    height: auto;
+    
+    padding: 20px;
+}
+.tin_noi_bat_img{
+    position: relative;
+    width: 100%;
+
+    padding-top: calc(100% * 9 / 16);
+    background-color:antiquewhite;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.tin_noi_bat_img img{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.tin_noi_bat_header{
+    position: relative;
+    top:0px;
+    margin-top: 10px;
+    
+    height: fit-content;
+}
+.tin_noi_bat_date{
+    position: relative;
+    top:0px;
+    margin-top: 10px;
+}
+.tin_noi_bat_content{
+    position: relative;
+    top:0px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.tin_noi_bat_ngang{
+    position: relative;
+    width: 50%;
+    height: auto;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tin_noi_bat_ngang_sub{
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+    margin: 10px;
+    display: flex;
+}
+.tin_noi_bat_ngang_sub_img{
+    position: relative;
+    width: 40%;
+    padding-top: calc(40% * 9 / 16);
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color:antiquewhite;
+    overflow: hidden;
+}
+.tin_noi_bat_ngang_sub_img img{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.tin_noi_bat_ngang_sub_header_date{
+    position: relative;
+    padding: 10px;
+}
+.tin_noi_bat_ngang_sub_header{
+    position: relative;
+    top: 0px;
+    margin-top: 10px;
+}
+.tin_noi_bat_ngang_sub_date{
+    position: relative;
+    top: 0px;
+    margin-top: 10px;
+}
