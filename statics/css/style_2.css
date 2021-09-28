@@ -378,3 +378,62 @@
     top: 0px;
     margin-top: 10px;
 }
+.tin_khac{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    min-height: 480px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tin_khac_sub{
+    position: relative;
+    width: var(--width_sub_tin);
+    margin-left: calc((100% - var(--so_sub_tin_mot_hang) * var(--width_sub_tin) )/(2 * var(--so_sub_tin_mot_hang) ));
+    margin-right: calc((100% - var(--so_sub_tin_mot_hang) * var(--width_sub_tin) )/(2 * var(--so_sub_tin_mot_hang) ));
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    min-height: 400px;
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}   
+.tin_khac_sub_img{
+    position: relative;
+    width: 100%;
+    padding-top: calc(100% * 9 / 16);
+    background-color:antiquewhite;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.tin_khac_sub_img img{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.tin_khac_sub_header{
+    position: relative;
+    margin-top: 10px;
+    top: 0px;
+    left: 0px;
+}
+.tin_khac_sub_date{
+    position: relative;
+    margin-top: 10px;
+    top: 0px;
+    left: 0px;
+}
+.tin_khac_sub_content{
+    position: relative;
+    margin-top: 10px;
+    top: 0px;
+    left: 0px;
+    text-align: justify;
+}

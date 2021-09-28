@@ -35,7 +35,9 @@
     --width_sub_xe:22%;
     --so_sub_xe_mot_hang:4;
     
-
+    /*trang tin tuc*/
+    --width_sub_tin:30%;
+    --so_sub_tin_mot_hang:3;
 }
 
 /*--font_section_h2*/
