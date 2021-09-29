@@ -126,11 +126,9 @@ body{
     color: var(--mau_nen_header_1);
 }
 
-
-
 .menu_sub_x{
     position: relative;
-    background-color: crimson;
+    background-color:var(--mau_nen_header_1);
     top: -50%;
     margin: 0px;
     width: 100%;
@@ -142,8 +140,9 @@ body{
     position: relative;
     width: 22%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: calc((100% - 4 * 22%) / 8);
+    margin-right: calc((100% - 4 * 22%) / 8);
+    margin-bottom: 20px;
     display: none;
 }
 
@@ -373,7 +372,6 @@ body{
 }
 .dich_vu_sub{
     position: relative;
-
     width: 15%;
     margin-left: calc((100% - 5 * 15%) / 10);
     margin-right: calc((100% - 5 * 15%) / 10);
