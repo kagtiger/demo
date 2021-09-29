@@ -199,9 +199,11 @@ function menu_color(menu_id){
       var menu_sub = document.querySelectorAll(menu_sub_class);
       if (menu_sub.length>0){
         var par_e = menu_sub[0].parentElement;
+        
       par_e.onmouseleave =function(){
         for(var z = 0 ; z< menu_sub.length;z++){
           menu_sub[z].style.display="none";
+          sleepFor(200);
         }
       }
       }

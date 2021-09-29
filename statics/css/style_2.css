@@ -2,20 +2,133 @@
 @import url("max_width.css");
 @import url("id_anh.css");
 
-.danh_sach_sp_x{
+
+.main_san_pham_x{
     position: relative;
-    left: var(--thut_le_section_ve_chung_toi);
-    width: calc( 100% - var(--thut_le_section_ve_chung_toi)*2 );
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     height: auto;
     background-color:var(--mau_chu_de_1);
     padding-top: 20px;
 }
 
+.main_san_pham{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.muc_luc_xe_x{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 10%;
+    min-width: 100px;
+    height: auto;
+    
+    padding-top: 20px;
+}
+
+.muc_luc_xe{
+    position: relative;
+    margin-top: 0px;
+    padding: 0px;
+    top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-height: 250px;
+    width: 100%;
+    /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.muc_luc_xe_sub{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+    padding: 0px;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.muc_luc_xe_sub > a{
+    position: relative;
+    font-size: large;
+    font-weight: bold;
+    color: var(--mau_nen_header_1);
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    display: block;
+}
+
+.muc_luc_xe_sub > a:hover{
+    background-color: var(--mau_nen_header_1);
+    color: #ffffff;
+}
+
+.muc_luc_xe_sub > ul{
+    display: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.muc_luc_xe_sub > ul > li{
+    list-style: none;
+    cursor: pointer;
+    line-height: 2em;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.muc_luc_xe_sub:hover > ul{
+    display: block;
+    
+}
+
+.muc_luc_xe_sub > ul > li > a{
+    position: relative;
+    font-size:medium;
+    padding-left: 0px;
+    color: var(--mau_nen_header_1);
+    width: 100%;
+    padding: 2px;
+    margin-left: 0px;
+    display: block;
+}
+
+.muc_luc_xe_sub > ul > li > a:hover{
+    background-color: var(--mau_nen_header_1);
+    color: #ffffff;
+}
+
+.danh_sach_sp_x{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    background-color:var(--mau_chu_de_1);
+    padding-top: 20px;
+}
+
+
 .danh_sach_sp{
     position: relative;
     left:calc((100% - var(--width_main_section)) / 2);
     width: var(--width_main_section);
-    
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 4px 9px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
     display: flex;
     flex-direction: row;
