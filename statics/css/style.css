@@ -121,9 +121,89 @@ body{
     border-radius: 8px;
     margin: auto;
 }
-.menu >ul > li > a:hover{
+.menu > ul > li > a:hover{
     background-color: white;
-    color: #000;
+    color: var(--mau_nen_header_1);
+}
+
+
+
+.menu_sub_x{
+    position: relative;
+    background-color: crimson;
+    top: -50%;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu_sub{
+    position: relative;
+    width: 22%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.menu_sub > ul {
+    position: relative;
+    margin: 0px;
+    left: 0px;
+    padding: 0px;
+    display: none;
+}
+
+.menu_sub:hover > ul{
+    display: block;
+}
+
+.menu_sub > a{
+    position: relative;
+    left: 0px;
+    padding: auto;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-size: large;
+    color: var(--color_chu_menu);
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.menu_sub >a:hover{
+    background-color: white;
+    color: var(--mau_nen_header_1);
+}
+
+.menu_sub > ul > li{
+    list-style: none;
+    margin: 0px;
+    left: 0px;
+    padding: 0px;
+}
+
+.menu_sub > ul > li > a{
+    position: relative;
+    left: 0px;
+    padding: auto;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-size: large;
+    color: var(--color_chu_menu);
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+.menu_sub > ul > li > a:hover{
+    background-color: white;
+    color: var(--mau_nen_header_1);
 }
 
 #icon_menu{

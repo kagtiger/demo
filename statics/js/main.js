@@ -1,3 +1,8 @@
+function sleepFor(sleepDuration){
+  var now = new Date().getTime();
+  while(new Date().getTime() < now + sleepDuration){ /* Do nothing */ }
+}
+
 function animation(){
   var slide_hero = anime({
     targets: '.hero_sub',
@@ -10,7 +15,7 @@ function animation(){
       {translateX: 0},
 
     ],
-    duration: 25000,
+    duration: 10500,
     delay: 1000,
     easing: 'easeInOutQuart',
     loop: true
@@ -154,6 +159,8 @@ function my_menu_btn(id_content){
 
 }
 
+
+
 function click_color(id_this){
   var bro_e = id_this.parentElement.parentElement.children;
   for (var i=0;i<bro_e.length;i++){
@@ -165,7 +172,8 @@ function click_color(id_this){
 }
 function menu_color(menu_id){
   var tilte = document.title.toLowerCase();
-  var bro_e = document.querySelector(menu_id).children[0].children;
+  var menu = document.querySelector(menu_id);
+  var bro_e = menu.children[0].children;
   for(var i=0;i<bro_e.length;i++){
     var a_element =bro_e[i].children[0];
     if (a_element.innerHTML.toLowerCase()===tilte){
@@ -173,7 +181,35 @@ function menu_color(menu_id){
       a_element.style.color="rgba(2, 48, 71, 1)";
     }
   }
-}
+  for(var j = 0 ; j<bro_e.length;j++){
+    var a_element =bro_e[j].children[0];
+    a_element.onmouseover = function() {
+      var a_element_id = this.id;
+      var menu_sub_class = "."+a_element_id+"_sub";
+      var menu_sub = document.querySelectorAll(menu_sub_class);
+      if (menu_sub.length >0){
+        for(var z = 0 ; z< menu_sub.length;z++){
+          menu_sub[z].style.display="block";
+        }
+      }
+     }
+     a_element.onmouseleave = function(){
+      var a_element_id = this.id;
+      var menu_sub_class = "."+a_element_id+"_sub";
+      var menu_sub = document.querySelectorAll(menu_sub_class);
+      if (menu_sub.length>0){
+        var par_e = menu_sub[0].parentElement;
+      par_e.onmouseleave =function(){
+        for(var z = 0 ; z< menu_sub.length;z++){
+          menu_sub[z].style.display="none";
+        }
+      }
+      }
+     }
+     }
+  }
+
+
 
 
 function my_menu_btn2(id_content){
@@ -214,4 +250,13 @@ console.log(x.document.getElementsByTagName("p"));
 }
 function dont_show(){
   return 0;
+}
+
+function read_url(){
+  var url_string =  String(window.location.href);
+  var url = new URL(url_string);
+  var brand_value = url.searchParams.get("brand");
+  console.log(brand_value);
+  var type_value = url.searchParams.get("type");
+  console.log(type_value);
 }
