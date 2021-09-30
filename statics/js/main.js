@@ -261,4 +261,18 @@ function read_url(){
   console.log(brand_value);
   var type_value = url.searchParams.get("type");
   console.log(type_value);
+  if (brand_value!=null){
+    if (type_value!=null){
+      var div_id =brand_value + "_" + type_value;
+    }
+    else{
+      var div_id =brand_value;
+    }
+    document.getElementById(div_id).scrollIntoView();
+  }else{
+    return 0;
+  }
+}
+function scroll_to_div(div_id){
+  document.getElementById(div_id).scrollIntoView();
 }
