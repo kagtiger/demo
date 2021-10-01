@@ -1118,7 +1118,7 @@ body{
     position:fixed;
     
     float:right;
-    top: 300px;
+    bottom: 100px;
     width: 5%;
     right: 0px;
     height: 250px;
@@ -1129,8 +1129,8 @@ body{
     position: relative;
     right: calc((100% - 60px) / 2);
     width: 60px;
+    height: 60px;
     
-    padding-top: 60px;
     
     cursor: pointer;
 }
@@ -1140,10 +1140,18 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: coral;
+    background-color: var(--mau_nen_header_1);
     outline: none;
     border-style: none;
     cursor: pointer;
+    color: #ffffff;
+    
+}
+
+.social_fixed > button > img{
+    position: relative;
+    width: 100%;
+    
     
 }
 
