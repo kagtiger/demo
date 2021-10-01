@@ -39,3 +39,11 @@
 .arrow_left{
     content: url("https://img.icons8.com/pastel-glyph/64/000000/circled-left.png");
 }
+
+
+                  /*trang san pham*/
+#hero_san_pham_1{
+    content: url("../img/photos/san_pham/hero_san_pham_1.jpg");
+}
+
+

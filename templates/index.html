@@ -83,7 +83,7 @@
     </div>
     <img id="icon_menu" alt="">
 </div>
-<div class="main">
+<div id="main_index" class="main">
     <div class="slide_ngang hero">
         <div class="slide_sub hero_sub">
             <img id="slide1_img"  alt="" class="slide_img" loading="lazy">
@@ -358,7 +358,7 @@
             </div>
         </div>
         <div class="khoang_cach_giua_cac_section"></div>
-        <div class="tieu_bieu_x">
+        <div class="san_pham_moi_x">
             <h2><center>Sản phẩm mới</center></h2>
             <br><br>
             <div class=" box_waper chuyen_dung">
@@ -559,15 +559,32 @@
         </div>
         <div class="khoang_cach_giua_cac_section"></div>
         <div class="tai_sao_lua_chon_chung_toi_x">
-            <h3><center>Tại sao lựa chọn chúng tôi</center> </h3>
+            <h3><center>Tại sao lựa chọn cCKGT</center> </h3>
             <br><br><br><br>
             <div class="tai_sao_lua_chon_chung_toi">
-                <img src="../statics/img/photos/tai_sao_lua_chon_chung_toi_bgr.jpg" alt="">
+                <div class="tai_sao_lua_chon_chung_toi_img">
+                    <img src="../statics/img/photos/tai_sao_chon.png" alt="">
+                </div>
                 <div class="tai_sao_lua_chon_chung_toi_sub">
-                    <div class="lua_chon"></div>
-                    <div class="lua_chon"></div>
-                    <div class="lua_chon"></div>
-                    <div class="lua_chon"></div>
+                    <img src="../statics/img/photos/tai_sao_chon_nen_rec.png" alt="">
+                    <div class="lua_chon">
+                        <h3>Sản phẩm hoàn thiện, đa dạng</h3>
+                    </div>
+                    <div class="lua_chon">
+                        <h3>Chi phí thấp nhất</h3>
+                    </div>
+                    <div class="lua_chon">
+                        <h3>Trung tâm bảo hành chất lượng</h3>
+                    </div>
+                    <div class="lua_chon">
+                        <h3>Dịch vụ sau bán hàng chuyên nghiệp</h3>
+                    </div>
+                    <div class="lua_chon">
+                        <h3>Phụ tùng chính hãng</h3>
+                    </div>
+                    <div class="lua_chon">
+                        <h3>Tư vấn hỗ trợ nhiệt tình</h3>
+                    </div>
                 </div>
             </div>
         </div>
@@ -704,6 +721,11 @@
         </div>
         <div class="khoang_cach_giua_cac_section"></div>
     </div>
+    <div class="icon_fixed">
+        <div class="social_fixed goto_top">
+            <button onclick="scroll_to_div(main_index)">Lên đầu trang</button>
+        </div>
+    </div>
     <div class="footer">
         <div class="ft_sub">
             <img class="ft_logo_img" alt="logo footer">
@@ -724,23 +746,25 @@
             </div>
         </div>
         <div class="ft_sub">
-            <h3>Menu</h3>
+            <br><br>
             <br>
             <div class="ft_sub_col">
                 <div>
                     <lu>
-                    <li>Trang chủ</li>
-                    <li>Sản phẩm</li>
-                    <li>Dich vụ</li>
-                    <li>Liên hệ</li>
-                    <li>Tin tức</li>
+                    <li>Xe tải</li>
+                    <li>Xe ben</li>
+                    <li>Xe đầu kéo</li>
+                    <li>Xe rơ mooc</li>
+                    <li>Xe chuyên dụng</li>
                 </lu>
                 </div>
                 <div>
                     <lu>
-                    <li>Ô tô tải</li>
-                    <li>Chuyên Dụng</li>
-                    <li>Tiện ích</li>
+                    <li>Thiết kế</li>
+                    <li>Sản xuất</li>
+                    <li>Hoán cải</li>
+                    <li>Phụ tùng</li>
+                    <li>Chăm sóc KH</li>
                 </lu>
                 </div>
             </div>
@@ -765,6 +789,7 @@
 </div>
 <script>
     animation();
+    var main_index = "main_index"
     //top_main_web();
     //////////////////////////////////////////////////////////////////
     var list_ele_border =[".dich_vu",".san_pham",".tin_tuc",".doi_tac",".lien_he",".doi_tac_sub",".doi_tac_img"];
