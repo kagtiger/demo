@@ -61,9 +61,18 @@
                 <div class="thong_tin_san_pham">
                     <div class="anh_ten_sp">
                         <div class="anh_img">
-                            <img src="../statics/img/photos/Presentation1/iveco_tang_le_1.jpg" alt="">
+                            <img id="view_img" src="../statics/img/photos/Presentation1/iveco_tang_le_1.jpg" alt="">
+                            <div id="anh_sub" class="anh_sub">
+                                <div class="img_sub"><img src="" alt=""></div>
+                                <div class="img_sub"><img src="" alt=""></div>
+                                <div class="img_sub"><img src="" alt=""></div>
+                                <div class="img_sub"><img src="" alt=""></div>
+                            </div>
                         </div>
+                        
+                        <div id="view_zoom" class="anh_zoom"></div>
                         <div class="ten_sp">
+                            
                             <h3>IVECO TANG LỄ</h3>
                             <br><br>
                             <p>
@@ -213,6 +222,8 @@
     //set_footer(".footer");
     var content_thong_so_sub=".content_thong_so_sub";
      menu_color("#menu_page");
+     imageZoom("view_img", "view_zoom");
+     display_zoom("div_lens", "view_zoom");
 </script>
 </body>
 </html>

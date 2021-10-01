@@ -673,6 +673,7 @@ body{
 .tieu_bieu_sub_img img{
     position: relative;
     width: 100%;
+
     padding-top: 00%;
     border-radius:15px;
 }
@@ -1128,8 +1129,8 @@ body{
 .social_fixed{
     position: relative;
     right: calc((100% - 60px) / 2);
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     
     
     cursor: pointer;
@@ -1144,7 +1145,7 @@ body{
     outline: none;
     border-style: none;
     cursor: pointer;
-    color: #ffffff;
+    
     
 }
 
@@ -1259,11 +1260,13 @@ body{
 .ten_sp{
     position: relative;
     left: 0px;
-    width: 50%;
+    width: 60%;
     height: 100%;
     min-height: 300px;
     
 }
+
+
 
 .ten_sp h3{
     padding-left: 20px;
@@ -1280,17 +1283,63 @@ body{
     transform: translateY(-100%);
 }
 
+.anh_zoom{
+    position:absolute;
+    width: 50%;
+    left: 45%;
+    padding-top: calc(50% * 9 / 16);
+    
+    z-index: 100;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #000000;
+    border-width: 4px;
+   
+
+}
+
 .anh_img{
     position: relative;
     left: 0px;
-    width: 50%;
+    width: 40%;
     height: 100%;
     overflow: hidden;
 }
 
-.anh_img img{
+.img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    /*set the size of the lens:*/
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    
+  }
+
+.anh_img > img{
     position: relative;
     width: 100%;
+}
+
+.anh_sub{
+    position: relative;
+    height: 50px;
+    width: 90%;
+    left: 5%;
+    display: flex;
+}
+
+.img_sub{
+    position: relative;
+    width: 22.5%;
+    padding-top: 22.5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    cursor:zoom-in;
+}
+.img_sub > img{
+    cursor:zoom-in;
 }
 
 .thong_so_sp{
