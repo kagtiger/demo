@@ -12,24 +12,73 @@
 </head>
 
 <body>
-<div class="header">
-    <div class="logo">
-        <img alt="logo" class="logo_img" loading="lazy">
+    <div class="header">
+        <div class="logo">
+            <img alt="logo" class="logo_img" loading="lazy">
+        </div>
+        <div id="menu_page" class="menu">
+            <ul>
+                <li><a id="menu_trang_chu" href="index.html"  >TRANG CHU</a></li>
+                <li><a id="menu_ve_chung_toi" href="ve-chung-toi.html" >VE CHUNG TOI</a></li>
+                <li><a id="menu_san_pham" href="san-pham.html" >SAN PHAM</a></li>
+                <li><a id="menu_dich_vu" href="dich-vu.html" >DICH VU</a></li>
+                <li><a id="menu_tien_ich" href="tien-ich.html" >TIEN ICH</a></li>
+                <li><a id="menu_tin_tuc" href="tin-tuc.html" >TIN TUC</a></li>
+                <li><a id="menu_tuyen_dung" href="tuyen-dung.html" >TUYEN DUNG</a></li>
+                <li><a id="menu_lien_he" href="lien-he.html" >LIEN HE</a></li>
+            </ul>
+            <div class="menu_sub_x">
+                <div class="menu_sub menu_san_pham_sub">
+                    <a href="san-pham.html?brand=hino">XE HINO</a>
+                    <ul>
+                        <li><a href="san-pham.html?brand=hino&type=thung_lung">XE THÙNG LỬNG</a></li>
+                        <li><a href="san-pham.html?brand=hino&type=mui_bat">XE MUI BẠT</a></li>
+                        <li><a href="san-pham.html?brand=hino&type=gai_suc">XE GIA SÚC</a></li>
+                        <li><a href="san-pham.html?brand=hino&type=gia_cam">XE GIA CẦM</a></li>
+                    </ul>
+                </div>
+                <div class="menu_sub menu_san_pham_sub">
+                    <a href="san-pham.html?brand=jac">XE JAC</a>
+                    <ul>
+                        <li><a href="san-pham.html?brand=jac&type=thung_lung">XE THÙNG LỬNG</a></li>
+                        <li><a href="san-pham.html?brand=jac&type=mui_bat">XE MUI BẠT</a></li>
+                        <li><a href="san-pham.html?brand=jac&type=gai_suc">XE GIA SÚC</a></li>
+                        <li><a href="san-pham.html?brand=jac&type=gia_cam">XE GIA CẦM</a></li>
+                    </ul>
+                </div>
+                <div class="menu_sub menu_san_pham_sub">
+                    <a href="san-pham.html?brand=faw">XE FAW</a>
+                    <ul>
+                        <li><a href="san-pham.html?brand=faw&type=thung_lung">XE THÙNG LỬNG</a></li>
+                        <li><a href="san-pham.html?brand=faw&type=mui_bat">XE MUI BẠT</a></li>
+                        <li><a href="san-pham.html?brand=faw&type=gai_suc">XE GIA SÚC</a></li>
+                        <li><a href="san-pham.html?brand=faw&type=gia_cam">XE GIA CẦM</a></li>
+                    </ul>
+                </div>
+               
+                <div class="menu_sub menu_san_pham_sub">
+                    <a href="san-pham.html?brand=howo">XE KIA</a>
+                    <ul>
+                        <li><a href="san-pham.html?brand=kia&type=thung_lung">XE THÙNG LỬNG</a></li>
+                        <li><a href="san-pham.html?brand=kia&type=mui_bat">XE MUI BẠT</a></li>
+                        <li><a href="san-pham.html?brand=kia&type=gai_suc">XE GIA SÚC</a></li>
+                        <li><a href="san-pham.html?brand=kia&type=gia_cam">XE GIA CẦM</a></li>
+                    </ul>
+                </div>
+                <div class="menu_sub menu_san_pham_sub">
+                    <a href="san-pham.html?brand=kia">XE HOWO</a>
+                    <ul>
+                        <li><a href="san-pham.html?brand=howo&type=thung_lung">XE THÙNG LỬNG</a></li>
+                        <li><a href="san-pham.html?brand=howo&type=mui_bat">XE MUI BẠT</a></li>
+                        <li><a href="san-pham.html?brand=howo&type=gai_suc">XE GIA SÚC</a></li>
+                        <li><a href="san-pham.html?brand=howo&type=gia_cam">XE GIA CẦM</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+        </div>
+        <img id="icon_menu" alt="">
     </div>
-    <div id="menu_page" class="menu">
-        <ul>
-            <li><a href="index.html"  >TRANG CHU</a></li>
-            <li><a href="ve-chung-toi.html" >VE CHUNG TOI</a></li>
-            <li><a href="san-pham.html" >SAN PHAM</a></li>
-            <li><a href="dich-vu.html" >DICH VU</a></li>
-            <li><a href="tien-ich.html" >TIEN ICH</a></li>
-            <li><a href="tin-tuc.html" >TIN TUC</a></li>
-            <li><a href="tuyen-dung.html" >TUYEN DUNG</a></li>
-            <li><a href="lien-he.html" >LIEN HE</a></li>
-        </ul>
-    </div>
-    <img id="icon_menu" alt="">
-</div>
 <div class="main">
     <div class="slide_ngang hero">
         <div class="slide_sub hero_sub">
@@ -51,54 +100,54 @@
                     <div class="muc_luc_xe_x">
                         
                         
-                        <div class="muc_luc_xe">
+                        <div id="muc_luc_xe" class="muc_luc_xe">
                             <div class="muc_luc_xe_sub">
                                 <a href="#hino">Hino</a>
                                 <ul>
-                                    <li><a href="">Thùng lửng</a></li>
-                                    <li><a href="">Mui bạt</a></li>
-                                    <li><a href="">cánh dơi</a></li>
-                                    <li><a href="">gia cầm</a></li>
+                                    <li><a href="#hino-thung_lung">Thùng lửng</a></li>
+                                    <li><a href="#hino-mui_bat">Mui bạt</a></li>
+                                    <li><a href="#hino-gia_suc">Gia súc</a></li>
+                                    <li><a href="#hino-gia_cam">Gia cầm</a></li>
                                     
                                 </ul>
                             </div>
                             <div class="muc_luc_xe_sub">
                                 <a href="#jac">Jac</a>
                                 <ul>
-                                    <li><a href="">Thùng lửng</a></li>
-                                    <li><a href="">Mui bạt</a></li>
-                                    <li><a href="">cánh dơi</a></li>
-                                    <li><a href="">gia cầm</a></li>
+                                    <li><a href="#jac-thung_lung">Thùng lửng</a></li>
+                                    <li><a href="#jac-mui_bat">Mui bạt</a></li>
+                                    <li><a href="#jac-gia_suc">Gia súc</a></li>
+                                    <li><a href="#jac-gia_cam">Gia cầm</a></li>
                                     
                                 </ul>
                             </div>
                             <div class="muc_luc_xe_sub">
                                 <a href="#faw">Faw</a>
                                 <ul>
-                                    <li><a href="">Thùng lửng</a></li>
-                                    <li><a href="">Mui bạt</a></li>
-                                    <li><a href="">cánh dơi</a></li>
-                                    <li><a href="">gia cầm</a></li>
+                                    <li><a href="#faw-thung_lung">Thùng lửng</a></li>
+                                    <li><a href="#faw-mui_bat">Mui bạt</a></li>
+                                    <li><a href="#faw-gia_suc">Gia súc</a></li>
+                                    <li><a href="#faw-gia_cam">Gia cầm</a></li>
                                     
                                 </ul>
                             </div>
                             <div class="muc_luc_xe_sub">
                                 <a href="">Kia</a>
                                 <ul>
-                                    <li><a href="">Thùng lửng</a></li>
-                                    <li><a href="">Mui bạt</a></li>
-                                    <li><a href="">cánh dơi</a></li>
-                                    <li><a href="">gia cầm</a></li>
+                                    <li><a href="#kia-thung_lung">Thùng lửng</a></li>
+                                    <li><a href="#kia-mui_bat">Mui bạt</a></li>
+                                    <li><a href="#kia-gia_suc">Gia súc</a></li>
+                                    <li><a href="#kia-gia_cam">Gia cầm</a></li>
                                     
                                 </ul>
                             </div>
                             <div class="muc_luc_xe_sub">
                                 <a href="">Howo</a>
                                 <ul>
-                                    <li><a href="">Thùng lửng</a></li>
-                                    <li><a href="">Mui bạt</a></li>
-                                    <li><a href="">cánh dơi</a></li>
-                                    <li><a href="">gia cầm</a></li>
+                                    <li><a href="#howo-thung_lung">Thùng lửng</a></li>
+                                    <li><a href="#howo-mui_bat">Mui bạt</a></li>
+                                    <li><a href="#howo-gia_suc">Gia súc</a></li>
+                                    <li><a href="#howo-gia_cam">Gia cầm</a></li>
                                     
                                 </ul>
                             </div>
@@ -117,63 +166,11 @@
                         
                         <div class="danh_sach_sp">
                             <div class="slide_chon_xe"></div>
-                            <h3 id="hino">Hino</h3>
+                            <div>
+                                <h3 id="hino"><center>Hino</center></h3>
                             <br>
-                            <div class="danh_sach_xe hino">
-                                <div class="xe_sub">
-                                    <div class="xe_img">
-                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
-                                    </div>
-                                    <div class="xe_para">
-                                        <h4>Xe1</h4>
-                                    </div>
-                                </div>
-                                <div class="xe_sub">
-                                    <div class="xe_img">
-                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
-                                    </div>
-                                    <div class="xe_para">
-                                        <h4>Xe1</h4>
-                                    </div>
-                                </div>
-                                <div class="xe_sub">
-                                    <div class="xe_img">
-                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
-                                    </div>
-                                    <div class="xe_para">
-                                        <h4>Xe1</h4>
-                                    </div>
-                                </div>
-                                <div class="xe_sub">
-                                    <div class="xe_img">
-                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
-                                    </div>
-                                    <div class="xe_para">
-                                        <h4>Xe1</h4>
-                                    </div>
-                                </div>
-                                <div class="xe_sub">
-                                    <div class="xe_img">
-                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
-                                    </div>
-                                    <div class="xe_para">
-                                        <h4>Xe1</h4>
-                                    </div>
-                                </div>
-                                <div class="xe_sub">
-                                    <div class="xe_img">
-                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
-                                    </div>
-                                    <div class="xe_para">
-                                        <h4>Xe1</h4>
-                                    </div>
-                                </div>
-        
-                                
-                                
-                            </div>
-                            <h3 id="jac">Jac</h3>
                             <br>
+                            <h4 id="hino-thung_lung">Xe thùng lửng</h4>
                             <div class="danh_sach_xe">
                                 <div class="xe_sub">
                                     <div class="xe_img">
@@ -227,8 +224,7 @@
                                 
                                 
                             </div>
-                            <h3 id="faw">Faw</h3>
-                            <br>
+                            <h4 id="hino-mui_bat">Xe mui bạt</h4>
                             <div class="danh_sach_xe">
                                 <div class="xe_sub">
                                     <div class="xe_img">
@@ -281,12 +277,1010 @@
         
                                 
                                 
+                            </div>
+                            <h4 id="hino-gia_suc">Xe chở gia súc</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="hino-gia_cam">Xe chở gia cầm</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                            </div>
+                            </div>
+                            <div>
+                                <h3 id="jac">Jac</h3>
+                            <br>
+                            <br>
+                            <h4 id="jac-thung_lung">Xe thùng lửng</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="jac-mui_bat">Xe mui bạt</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="jac-gia_suc">Xe chở gia súc</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="jac-gia_cam">Xe chở gia cầm</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            </div>
+                            <div>
+                                <h3 id="faw">Faw</h3>
+                            <br>
+                            <br>
+                            <h4 id="faw-thung_lung">Xe thùng lửng</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="faw-mui_bat">Xe mui bạt</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="faw-gia_suc">Xe chở gia súc</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="faw-gia_cam">Xe chở gia cầm</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            </div>
+                            <div>
+                                <h3 id="kia">Kia</h3>
+                            <br>
+                            <br>
+                            <h4 id="kia-thung_lung">Xe thùng lửng</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="kia-mui_bat">Xe mui bạt</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="kia-gia_suc">Xe chở gia súc</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="kia-gia_cam">Xe chở gia cầm</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            </div>
+                            <div>
+                                <h3 id="howo">Howo</h3>
+                            <br>
+                            <br>
+                            <h4 id="howo-thung_lung">Xe thùng lửng</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="howo-mui_bat">Xe mui bạt</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="howo-gia_suc">Xe chở gia súc</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
+                            <h4 id="howo-gia_cam">Xe chở gia cầm</h4>
+                            <div class="danh_sach_xe">
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide22.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide23.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide18.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide19.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide17.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+                                <div class="xe_sub">
+                                    <div class="xe_img">
+                                        <img src="../statics/img/photos/Presentation1/Slide16.PNG" alt="">
+                                    </div>
+                                    <div class="xe_para">
+                                        <h4>Xe1</h4>
+                                    </div>
+                                </div>
+        
+                                
+                                
+                            </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         <div class="khoang_cach_giua_cac_section"></div>
+    </div>
+    <div class="icon_fixed">
+        <div class="social_fixed goto_top">
+            <button onclick="scroll_to_div(muc_luc_xe)">
+                <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/ffffff/external-up-arrow-basic-ui-elements-flatart-icons-outline-flatarticons-2.png"/>
+            </button>
+        </div>
     </div>
     <div class="footer">
         <div class="ft_sub">
@@ -359,6 +1353,7 @@
     //var ve_chung_toi=".ve_chung_toi_content_sub";
      menu_color("#menu_page");
      read_url();
+     var muc_luc_xe="muc_luc_xe";
 </script>
 </body>
 </html>
